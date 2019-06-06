@@ -4,7 +4,10 @@ import CurvedBottom from '../../components/CurvedBottom';
 const Hero = () => {
 
   return(
-    <div className="container-fluid  position-relative borders h-75 d-flex home-hero" style={{border:"1px solid black"}}>
+    <div className="container-fluid d-flex align-items-center position-relative h-75 home-hero" style={{justifyContent:"center"}}>
+      <div className="container h-25">
+        Heero
+      </div>
       <CurvedBottom color="white" />
     </div>
   )
