@@ -2,6 +2,11 @@
 @import './_mixins.scss';
 @import './_variables.scss';
 
+
+
+
+/* = = = = = = = = = = = = = = = HEADER = = = = = = = = = = = = = */
+
 .header-container{
     height:$header-h;
     background-color: $header-bg-c;
@@ -14,7 +19,7 @@
 
 .header-logo{
     font-size: 25px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 }
 
 .header-link{
@@ -26,6 +31,32 @@
     width:50px;
 }
 
+/* = = = = = = = = = = = = = = = HOME HERO = = = = = = = = = = = = = */
+
 .home-hero{
     background-color: $header-bg-c;
+}
+
+.home-hero-title-container{
+    height:15%;
+}
+
+.home-hero-title{
+    color:white;
+    font-size: 60px;
+    font-weight:200
+}
+
+.home-hero-subtitle-container{
+    height:10%;
+}
+
+.home-hero-subtitle{
+    color:white;
+    font-size:25px;
+    font-weight:300;
+}
+
+.home-hero-title-heavy{
+    font-weight:400;
 }
