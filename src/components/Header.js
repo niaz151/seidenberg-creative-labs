@@ -18,16 +18,16 @@ class Header extends React.Component{
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item pr-3">
-                <a class="nav-link text-light" href="#">Team <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-light header-link" href="#">Team <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item pr-3">
-                <a class="nav-link text-light" href="#">Skills</a>
+                <a class="nav-link text-light header-link" href="#">Skills</a>
               </li>
               <li class="nav-item pr-3">
-                <a class="nav-link text-light" href="#">Projects</a>
+                <a class="nav-link text-light header-link" href="#">Projects</a>
               </li>
               <li class="nav-item pr-3">
-                <a class="nav-link text-light" href="#">Contact</a>
+                <a class="nav-link text-light header-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
