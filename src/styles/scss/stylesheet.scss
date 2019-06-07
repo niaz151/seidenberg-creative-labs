@@ -43,7 +43,7 @@
 
 .home-hero-title{
     color:white;
-    font-size: 60px;
+    font-size:calc(14px + 4vw);
     font-weight:200
 }
 
@@ -53,10 +53,20 @@
 
 .home-hero-subtitle{
     color:white;
-    font-size:25px;
+    font-size:calc(14px + 1vw);
     font-weight:300;
 }
 
 .home-hero-title-heavy{
     font-weight:400;
+}
+
+@media(max-width:800px){
+    .home-hero-title-container{
+        height:12%;
+    }
+
+    .home-hero-subtitle-container{
+        height:5%;
+    }
 }
