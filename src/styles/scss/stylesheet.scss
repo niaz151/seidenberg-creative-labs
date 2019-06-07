@@ -10,6 +10,7 @@
 .header-container{
     height:$header-h;
     background-color: $header-bg-c;
+    z-index:1;
 }
 
 .header{

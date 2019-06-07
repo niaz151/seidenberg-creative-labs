@@ -4,8 +4,8 @@ class Header extends React.Component{
 
   render(){
     return(
-      <div class="w-100 header-container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light container header">
+      <div class="w-100 header-container fixed-top ">
+        <nav class="navbar navbar-expand-lg navbar-light container header">
           <a href="#"> 
             <img src={require("../images/brain.png")} className="brain-img" />
           </a>
