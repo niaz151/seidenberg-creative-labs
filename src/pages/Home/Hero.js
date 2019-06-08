@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import CurvedBottom from '../../components/CurvedBottom';
 
 const Hero = () => {
 
   return(
+    <>
     <div className="container-fluid d-flex align-items-center justify-content-center flex-column position-relative h-75 home-hero">
       <div className="container w-100 d-flex align-items-center justify-content-center home-hero-title-container">
         <span className="home-hero-title"> Seidenberg </span>
@@ -12,8 +13,9 @@ const Hero = () => {
       <div className="container w-100 d-flex align-items-center justify-content-center home-hero-subtitle-container ">
         <span className="home-hero-subtitle"> Technology Research and Development </span>
       </div>
-      <CurvedBottom color="white" />
+      <CurvedBottom color="white"/>
     </div>
+    </>
   )
 }
 

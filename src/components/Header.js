@@ -6,11 +6,14 @@ class Header extends React.Component{
     return(
       <div class="w-100 header-container fixed-top ">
         <nav class="navbar navbar-expand-lg navbar-light container header">
-          <a href="#"> 
-            <img src={require("../images/brain.png")} className="brain-img" />
-          </a>
-          <span class="navbar-brand text-light header-logo header-link" style={{marginLeft:"10px"}}> SCL </span>
-          
+
+          <div>
+            <a href="#"> 
+              <img src={require("../images/brain.png")} className="brain-img" />
+            </a>
+            <span class="navbar-brand text-light header-logo header-link" style={{marginLeft:"10px"}}> SCL </span>
+          </div>
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,6 +34,7 @@ class Header extends React.Component{
               </li>
             </ul>
           </div>
+          
         </nav>
       </div>
     )

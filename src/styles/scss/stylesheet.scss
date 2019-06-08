@@ -10,7 +10,8 @@
 .header-container{
     height:$header-h;
     background-color: $header-bg-c;
-    z-index:1;
+    z-index:2;
+    opacity: 0.8;
 }
 
 .header{
@@ -43,24 +44,27 @@
 }
 
 .home-hero-title{
-    color:white;
+    color:$home-hero-font-color;
     font-size:calc(14px + 4vw);
-    font-weight:200
+    font-weight:$home-hero-light-font-w;
+    letter-spacing: 0.01em;
+}
+
+.home-hero-title-heavy{
+    font-weight:$home-hero-heavy-font-w;
 }
 
 .home-hero-subtitle-container{
     height:10%;
 }
 
+
 .home-hero-subtitle{
-    color:white;
+    color:$home-hero-font-color;
     font-size:calc(14px + 1vw);
-    font-weight:300;
+    font-weight:$home-hero-light-font-w;
 }
 
-.home-hero-title-heavy{
-    font-weight:400;
-}
 
 @media(max-width:800px){
     .home-hero-title-container{
@@ -69,5 +73,41 @@
 
     .home-hero-subtitle-container{
         height:5%;
+    }
+}
+
+
+
+/* = = = = = = = = = = = = = = = FOOTER = = = = = = = = = = = = = */
+
+
+.footer{
+    background-color: $footer-bg-c;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-title{
+    font-size:calc(20px + 1vw);
+    color:white;
+    font-weight:300;
+    height:15%;
+}
+
+.footer-subtitles{
+    height:10%;
+    width:50%;
+    font-size:calc(15px);
+}
+
+.footer-item{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    flex:1;
+    font-weight:300;
+}
+
+@media(max-width:700px){
+    .footer-subtitles{
+        width: 100%;
     }
 }
