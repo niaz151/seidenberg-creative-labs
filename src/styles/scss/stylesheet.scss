@@ -11,7 +11,7 @@
     height:$header-h;
     background-color: $header-bg-c;
     z-index:2;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .header{
@@ -37,6 +37,8 @@
 
 .home-hero{
     background-color: $header-bg-c;
+    height: 90vh;
+    width: 100vw;
 }
 
 .home-hero-title-container{
@@ -58,7 +60,6 @@
     height:10%;
 }
 
-
 .home-hero-subtitle{
     color:$home-hero-font-color;
     font-size:calc(14px + 1vw);
@@ -77,37 +78,58 @@
 }
 
 
+/* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
 
-/* = = = = = = = = = = = = = = = FOOTER = = = = = = = = = = = = = */
-
-
-.footer{
-    background-color: $footer-bg-c;
-    font-family: 'Lato', sans-serif;
+.home-stdev{
+    height: 90vh;
+    width: 100vw;
 }
 
-.footer-title{
-    font-size:calc(20px + 1vw);
-    color:white;
-    font-weight:300;
-    height:15%;
+.home-stdev-container{
+    flex-direction: row;
 }
 
-.footer-subtitles{
-    height:10%;
-    width:50%;
-    font-size:calc(15px);
+.home-stdev-alert{
+    font-size: 25px;
+    font-weight: 300;
+    font-family:'Lato',sans-serif;
 }
 
-.footer-item{
-    color:white;
-    font-family: 'Lato', sans-serif;
+.std-alert-quote{
+    color: #6EE5FB;
+}
+
+.home-stdev-img{
+    height:400px;
+    width:380px;
+}
+
+.stdev-text-container{
+    height:80%;
+}
+
+.std-text-header{
+    text-align:left;
     flex:1;
+    font-family:'Lato',sans-serif;
+    font-size:50px;
+    width:85%;
+    font-weight: 300;
+}
+
+.std-text{
+    width:85%;
+    flex:1;
+    line-height:1.5em;
+    font-family: 'Lato', sans-serif;
+    font-size:22px;
     font-weight:300;
 }
 
-@media(max-width:700px){
-    .footer-subtitles{
-        width: 100%;
-    }
+.std-text-p1{
+    flex:2;
+}
+
+.std-text-p2{
+    flex:1;
 }
