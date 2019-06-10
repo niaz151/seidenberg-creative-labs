@@ -4,10 +4,10 @@ import CurvedBottom from '../../components/CurvedBottom';
 const StudentDevs = () => {
 
   return(
-    <div className="container-fluid position-relative d-flex home-stdev">
-      <div className="container-fluid d-flex h-100 w-100 home-stdev-container home-stdev-flex-control">
-        <div className="container-fluid d-flex flex-column align-items-center home-stdev-img-container">
-          <div className="container-fluid h-25 d-flex align-items-center justify-content-center home-stdev-alert">
+    <div className="container-fluid position-relative d-flex stdev">
+      <div className="container-fluid d-flex h-100 w-100 stdev-container stdev-flex-control">
+        <div className="container-fluid d-flex flex-column align-items-center stdev-img-container">
+          <div className="container-fluid h-25 d-flex align-items-center justify-content-center stdev-alert">
             <span>
               alert ("
             </span>
@@ -19,11 +19,11 @@ const StudentDevs = () => {
             </span>
           </div>
           <div className="container-fluid h-50 w-100 d-flex align-items-center justify-content-center">
-            <img src={require('../../images/laptop.png')} className="home-stdev-img" />
+            <img src={require('../../images/laptop.png')} className="stdev-img" />
           </div>
         </div>
-        <div className='container-fluid d-flex flex-column align-items-center justify-content-center home-stdev-text-container'>
-          <div className="container-fluid d-flex flex-column justify-content-between align-items-center home-stdev-text-subcontainer">
+        <div className='container-fluid d-flex flex-column align-items-center justify-content-center stdev-text-container'>
+          <div className="container-fluid d-flex flex-column justify-content-between align-items-center stdev-text-subcontainer">
             <div className='std-text-header align-items-end d-flex'>
                 Student Developers 
             </div>
@@ -40,7 +40,7 @@ const StudentDevs = () => {
           </div>
         </div>
       </div>
-      
+      <CurvedBottom color="#E7E5D8"/>
     </div>
   )
 }

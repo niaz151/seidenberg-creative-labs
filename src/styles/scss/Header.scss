@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+
+/* = = = = = = = = = = = = = = = HEADER = = = = = = = = = = = = = */
+
+.header-container{
+    height:$header-h;
+    background-color: $header-bg-c;
+    z-index:2;
+    opacity: 0.9;
+}
+
+.header{
+    height:$header-h;
+    background-color: $header-bg-c;
+}
+
+.header-logo{
+    font-size: 25px;
+    letter-spacing: 0.05em;
+}
+
+.header-link{
+    font-family: 'Lato', sans-serif;
+}
+
+.brain-img{
+    height:50px;
+    width:50px;
+}
+
+
+

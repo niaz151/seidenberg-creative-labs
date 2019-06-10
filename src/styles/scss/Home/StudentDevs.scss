@@ -1,0 +1,95 @@
+@import '../variables.scss';
+
+/* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
+
+.stdev{
+    height: 90vh;
+    width: 100vw;
+}
+
+.stdev-container{
+    flex-direction: row;
+}
+
+.stdev-img-container{
+    height:100%;
+    width:50%;
+    justify-content:center;
+}
+
+.stdev-alert{
+    font-size:calc(10px + 1vw);
+    font-weight: 300;
+    font-family:'Lato',sans-serif;
+    margin-top:-7vh;
+}
+
+.std-alert-quote{
+    color: #6EE5FB;
+}
+
+.stdev-img{
+    height:400px;
+    width:380px;
+}
+
+.stdev-text-container{  
+    height:100%;
+    width:50%;
+}
+
+.stdev-text-container{
+    height:80%;
+}
+
+.stdev-text-subcontainer{
+    height:80%;
+}
+
+.std-text-header{
+    text-align:left;
+    flex:1;
+    font-family:'Lato',sans-serif;
+    font-size:calc(15px + 2vw);
+    width:85%;
+    font-weight: 300;
+}
+
+.std-text{
+    width:85%;
+    flex:1;
+    line-height:1.5em;
+    font-family: 'Lato', sans-serif;
+    font-size:calc(6px + 1vw);
+    font-weight:300;
+}
+
+.std-text-p1{
+    flex:2;
+}
+
+.std-text-p2{
+    flex:1;
+}
+
+@media(max-width:800px){
+    .stdev{
+        height:120vh;
+    }
+    .stdev-flex-control{
+        flex-direction: column;
+    }
+    .stdev-img-container{
+        width:100vw;
+        height:60vh;
+        justify-content: space-around;
+    }
+    .stdev-text-container{  
+        width:100vw;
+        height:60vh;
+    }
+    .std-text{
+        font-size:calc(10px + 1vw);  
+    }
+ 
+}

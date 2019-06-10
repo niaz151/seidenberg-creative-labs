@@ -1,70 +1,3 @@
-/* = = = = = = = = = = = = = = = HEADER = = = = = = = = = = = = = */
-.header-container {
-  height: 10vh;
-  background-color: #29b2cf;
-  z-index: 2;
-  opacity: 0.9;
-}
-
-.header {
-  height: 10vh;
-  background-color: #29b2cf;
-}
-
-.header-logo {
-  font-size: 25px;
-  letter-spacing: 0.05em;
-}
-
-.header-link {
-  font-family: 'Lato', sans-serif;
-}
-
-.brain-img {
-  height: 50px;
-  width: 50px;
-}
-
-.hero {
-  background-color: #29b2cf;
-  height: 90vh;
-  width: 100vw;
-}
-
-.hero-title-container {
-  height: 15%;
-}
-
-.hero-title {
-  color: white;
-  font-size: calc(14px + 4vw);
-  font-weight: 200;
-  letter-spacing: 0.01em;
-}
-
-.hero-title-heavy {
-  font-weight: 400;
-}
-
-.hero-subtitle-container {
-  height: 10%;
-}
-
-.hero-subtitle {
-  color: white;
-  font-size: calc(14px + 1vw);
-  font-weight: 200;
-}
-
-@media (max-width: 800px) {
-  .hero-title-container {
-    height: 12%;
-  }
-  .hero-subtitle-container {
-    height: 5%;
-  }
-}
-
 /* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
 .stdev {
   height: 90vh;
@@ -173,4 +106,4 @@
     font-size: calc(10px + 1vw);
   }
 }
-/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=StudentDevs.css.map */

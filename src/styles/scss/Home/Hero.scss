@@ -1,0 +1,44 @@
+@import '../_variables.scss';
+
+
+.hero{
+    background-color: $header-bg-c;
+    height: 90vh;
+    width: 100vw;
+}
+
+.hero-title-container{
+    height:15%;
+}
+
+.hero-title{
+    color:$home-hero-font-color;
+    font-size:calc(14px + 4vw);
+    font-weight:$home-hero-light-font-w;
+    letter-spacing: 0.01em;
+}
+
+.hero-title-heavy{
+    font-weight:$home-hero-heavy-font-w;
+}
+
+.hero-subtitle-container{
+    height:10%;
+}
+
+.hero-subtitle{
+    color:$home-hero-font-color;
+    font-size:calc(14px + 1vw);
+    font-weight:$home-hero-light-font-w;
+}
+
+
+@media(max-width:800px){
+    .hero-title-container{
+        height:12%;
+    }
+
+    .hero-subtitle-container{
+        height:5%;
+    }
+}
