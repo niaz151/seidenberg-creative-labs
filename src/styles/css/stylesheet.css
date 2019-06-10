@@ -185,5 +185,93 @@
 .our-skills-container {
   height: 90vh;
   background-color: #E7E5D8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-skills-header {
+  height: 15%;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(20px + 2vw);
+  font-weight: 300;
+}
+
+.our-skills-icon-container {
+  height: 45%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.our-skills-icon {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-skills-icon-header {
+  font-family: 'Lato',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2vh;
+}
+
+.our-skills-icon-img {
+  height: 100px;
+  background-color: #1B1D20;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.our-skills-icon-desc {
+  text-align: center;
+  font-family: 'Lato',sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 1vh;
+}
+
+.ours-skills-btn-container {
+  height: 15%;
+}
+
+.icon {
+  color: white;
+}
+
+.our-skills-btn {
+  height: 60px;
+  width: 280px;
+  background-color: #1B1D20;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(12px + 1vw);
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .our-skills-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 160vh;
+  }
+  .our-skills-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: -5vh;
+    height: 100vh;
+  }
+  .our-skills-icon {
+    margin-top: 5vh;
+  }
 }
 /*# sourceMappingURL=stylesheet.css.map */
