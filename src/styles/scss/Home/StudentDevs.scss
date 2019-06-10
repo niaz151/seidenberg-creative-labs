@@ -21,7 +21,7 @@
     font-size:calc(10px + 1vw);
     font-weight: 300;
     font-family:'Lato',sans-serif;
-    margin-top:-7vh;
+    margin-top:-12vh;
 }
 
 .std-alert-quote{
@@ -31,6 +31,7 @@
 .stdev-img{
     height:400px;
     width:380px;
+    margin-top:-5vh;
 }
 
 .stdev-text-container{  
@@ -79,6 +80,12 @@
     .stdev-flex-control{
         flex-direction: column;
     }
+    .stdev-img{
+        margin-top:-7vh;
+    }
+    .stdev-alert{
+        margin-top:-4vh;
+    }
     .stdev-img-container{
         width:100vw;
         height:60vh;
@@ -87,6 +94,7 @@
     .stdev-text-container{  
         width:100vw;
         height:60vh;
+        margin-top:-8vh;
     }
     .std-text{
         font-size:calc(10px + 1vw);  
