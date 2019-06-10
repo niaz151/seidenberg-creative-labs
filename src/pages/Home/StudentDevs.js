@@ -5,8 +5,8 @@ const StudentDevs = () => {
 
   return(
     <div className="container-fluid position-relative d-flex home-stdev">
-      <div className="container-fluid d-flex h-100 w-100 home-stdev-container">
-        <div className="container-fluid h-100 w-50 d-flex flex-column align-items-center justify-content-center">
+      <div className="container-fluid d-flex h-100 w-100 home-stdev-container home-stdev-flex-control">
+        <div className="container-fluid d-flex flex-column align-items-center home-stdev-img-container">
           <div className="container-fluid h-25 d-flex align-items-center justify-content-center home-stdev-alert">
             <span>
               alert ("
@@ -22,9 +22,9 @@ const StudentDevs = () => {
             <img src={require('../../images/laptop.png')} className="home-stdev-img" />
           </div>
         </div>
-        <div className='container-fluid w-50 d-flex flex-column align-items-center justify-content-center'>
-          <div className="stdev-text-container d-flex flex-column justify-content-between align-items-center">
-            <div className='std-text-header d-flex align-items-end'>
+        <div className='container-fluid d-flex flex-column align-items-center justify-content-center home-stdev-text-container'>
+          <div className="container-fluid d-flex flex-column justify-content-between align-items-center home-stdev-text-subcontainer">
+            <div className='std-text-header d-flex'>
                 Student Developers 
             </div>
             <div className='std-text std-text-p1 d-flex align-items-center justify-content-center'>
