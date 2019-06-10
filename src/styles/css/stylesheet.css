@@ -66,7 +66,7 @@
   }
 }
 
-/* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
+/* = = = = = = = = = = = = = = = HOME STUDENT DEVS = = = = = = = = = = = = = */
 .home-stdev {
   height: 90vh;
   width: 100vw;
@@ -91,6 +91,7 @@
   font-size: calc(10px + 1vw);
   font-weight: 300;
   font-family: 'Lato',sans-serif;
+  margin-top: -7vh;
 }
 
 .std-alert-quote {
@@ -105,6 +106,7 @@
 .home-stdev-text-container {
   height: 100%;
   width: 50%;
+  margin-top: -7vh;
 }
 
 .stdev-text-container {
@@ -124,9 +126,6 @@
   font-size: calc(15px + 2vw);
   width: 85%;
   font-weight: 300;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 
 .std-text {
