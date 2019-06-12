@@ -67,7 +67,7 @@
 
 /* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
 .stdev {
-  height: 90vh;
+  height: 95vh;
   width: 100vw;
 }
 
@@ -152,7 +152,7 @@
 
 @media (max-width: 800px) {
   .stdev {
-    height: 120vh;
+    height: 130vh;
   }
   .stdev-flex-control {
     -webkit-box-orient: vertical;
@@ -224,16 +224,16 @@
 }
 
 .our-skills-icon-img {
-  height: 100px;
+  height: 80px;
   background-color: #1B1D20;
-  width: 100px;
+  width: 80px;
   border-radius: 100px;
 }
 
 .our-skills-icon-desc {
   text-align: center;
   font-family: 'Lato',sans-serif;
-  font-size: 15px;
+  font-size: calc(10px + 0.5vw);
   font-weight: 300;
   margin-top: 1vh;
 }
@@ -260,18 +260,21 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 160vh;
+    height: 135vh;
   }
   .our-skills-icon-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: -5vh;
+    margin-top: -6vh;
     height: 100vh;
   }
   .our-skills-icon {
     margin-top: 5vh;
+  }
+  .our-skills-icon-desc {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */

@@ -3,7 +3,7 @@
 /* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
 
 .stdev{
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
 }
 
@@ -75,7 +75,7 @@
 
 @media(max-width:800px){
     .stdev{
-        height:120vh;
+        height:130vh;
     }
     .stdev-flex-control{
         flex-direction: column;

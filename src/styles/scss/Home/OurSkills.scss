@@ -5,6 +5,7 @@
 }
 
 .our-skills-header{
+
     height:15%;
     font-family:'Lato',sans-serif;
     font-size:calc(20px + 2vw);  
@@ -12,6 +13,7 @@
 }
 
 .our-skills-icon-container{
+
     height:45%;
     flex-direction: row;
 }
@@ -30,16 +32,16 @@
 }
 
 .our-skills-icon-img{
-    height:100px;
+    height:80px;
     background-color: #1B1D20;
-    width:100px;
+    width:80px;
     border-radius: 100px;
 }
 
 .our-skills-icon-desc{
     text-align: center;
     font-family: 'Lato',sans-serif;
-    font-size:15px;
+    font-size:calc(10px + 0.5vw);  
     font-weight:300;
     margin-top:1vh;
 }
@@ -65,14 +67,17 @@
 
     .our-skills-container{
       justify-content: space-between;
-      height:160vh;
+      height:135vh;
     }
     .our-skills-icon-container{
       flex-direction: column;
-      margin-top:-5vh;
+      margin-top:-6vh;
       height:100vh;
     }
     .our-skills-icon{
         margin-top:5vh;
+    }
+    .our-skills-icon-desc{
+        width:80%;
     }
 }
