@@ -4,11 +4,13 @@
   background-color: #29b2cf;
   z-index: 2;
   opacity: 0.9;
+  width: 100vw;
 }
 
 .header {
   height: 10vh;
   background-color: #29b2cf;
+  width: 100vw;
 }
 
 .header-logo {

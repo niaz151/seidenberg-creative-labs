@@ -8,11 +8,13 @@
     background-color: $header-bg-c;
     z-index:2;
     opacity: 0.9;
+    width:100vw;
 }
 
 .header{
     height:$header-h;
     background-color: $header-bg-c;
+    width:100vw;
 }
 
 .header-logo{

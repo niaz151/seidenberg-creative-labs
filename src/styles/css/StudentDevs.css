@@ -33,7 +33,7 @@
 .stdev-img {
   height: 400px;
   width: 380px;
-  margin-top: -5vh;
+  margin-top: -6vh;
 }
 
 .stdev-text-container {
@@ -47,6 +47,7 @@
 
 .stdev-text-subcontainer {
   height: 80%;
+  margin-top: 2vh;
 }
 
 .std-text-header {
@@ -69,6 +70,7 @@
   font-family: 'Lato', sans-serif;
   font-size: calc(6px + 1vw);
   font-weight: 300;
+  margin-top: 2vh;
 }
 
 .std-text-p1 {
@@ -86,6 +88,7 @@
 @media (max-width: 800px) {
   .stdev {
     height: 130vh;
+    margin-left: -4vw;
   }
   .stdev-flex-control {
     -webkit-box-orient: vertical;
@@ -94,7 +97,7 @@
             flex-direction: column;
   }
   .stdev-img {
-    margin-top: -7vh;
+    margin-top: -4vh;
   }
   .stdev-alert {
     margin-top: -4vh;
@@ -108,10 +111,11 @@
   .stdev-text-container {
     width: 100vw;
     height: 60vh;
-    margin-top: -8vh;
+    margin-top: -2vh;
   }
   .std-text {
     font-size: calc(10px + 1vw);
+    margin-top: 2vh;
   }
 }
 /*# sourceMappingURL=StudentDevs.css.map */

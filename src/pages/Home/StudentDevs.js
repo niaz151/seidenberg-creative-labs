@@ -40,7 +40,6 @@ const StudentDevs = () => {
           </div>
         </div>
       </div>
-      <CurvedBottom color="#E7E5D8"/>
     </div>
   )
 }

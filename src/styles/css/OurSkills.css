@@ -64,10 +64,10 @@
 
 .our-skills-btn {
   height: 60px;
-  width: 280px;
+  width: 300px;
   background-color: #1B1D20;
   font-family: 'Lato',sans-serif;
-  font-size: calc(12px + 1vw);
+  font-size: calc(9px + 1vw);
   color: white;
 }
 
@@ -91,6 +91,9 @@
   }
   .our-skills-icon-desc {
     width: 80%;
+  }
+  .our-skills-btn {
+    width: 850px;
   }
 }
 /*# sourceMappingURL=OurSkills.css.map */
