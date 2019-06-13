@@ -24,7 +24,7 @@ const StudentDevs = () => {
         </div>
         <div className='container-fluid d-flex flex-column align-items-center justify-content-center stdev-text-container'>
           <div className="container-fluid d-flex flex-column justify-content-between align-items-center stdev-text-subcontainer">
-            <div className='std-text-header align-items-end d-flex'>
+            <div className='std-text-header d-flex'>
                 Student Developers 
             </div>
             <div className='std-text std-text-p1 d-flex align-items-center justify-content-center'>
@@ -40,6 +40,7 @@ const StudentDevs = () => {
           </div>
         </div>
       </div>
+      <CurvedBottom color="#E7E5D8"/>
     </div>
   )
 }

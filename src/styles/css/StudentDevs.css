@@ -59,6 +59,9 @@
   font-size: calc(15px + 2vw);
   width: 85%;
   font-weight: 300;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .std-text {
@@ -88,7 +91,6 @@
 @media (max-width: 800px) {
   .stdev {
     height: 130vh;
-    margin-left: -4vw;
   }
   .stdev-flex-control {
     -webkit-box-orient: vertical;
@@ -103,12 +105,14 @@
     margin-top: -4vh;
   }
   .stdev-img-container {
+    margin-left: -3vw;
     width: 100vw;
     height: 60vh;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
   .stdev-text-container {
+    margin-left: -5vw;
     width: 100vw;
     height: 60vh;
     margin-top: -2vh;
@@ -116,6 +120,14 @@
   .std-text {
     font-size: calc(10px + 1vw);
     margin-top: 2vh;
+  }
+  .std-text-header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=StudentDevs.css.map */

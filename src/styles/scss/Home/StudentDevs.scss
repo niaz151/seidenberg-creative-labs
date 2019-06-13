@@ -55,6 +55,7 @@
     font-size:calc(15px + 2vw);
     width:85%;
     font-weight: 300;
+    align-items: flex-end;
 }
 
 .std-text{
@@ -78,7 +79,7 @@
 @media(max-width:800px){
     .stdev{
         height:130vh;
-        margin-left:-4vw;
+       
     }
     .stdev-flex-control{
         flex-direction: column;
@@ -90,11 +91,13 @@
         margin-top:-4vh;
     }
     .stdev-img-container{
+        margin-left:-3vw;
         width:100vw;
         height:60vh;
         justify-content: space-around;
     }
     .stdev-text-container{  
+        margin-left:-5vw;
         width:100vw;
         height:60vh;
         margin-top:-2vh;
@@ -102,6 +105,10 @@
     .std-text{
         font-size:calc(10px + 1vw);  
         margin-top:2vh;
+    }
+    .std-text-header{
+        align-items: center;
+        justify-content: center;
     }
  
 }
