@@ -44,8 +44,8 @@ const OurSkills = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid w-50 d-flex align-items-center justify-content-center ours-skills-btn-container">
-          <div className="container-fluid d-flex align-items-center justify-content-center our-skills-btn">
+        <div className="w-100 container-fluid d-flex align-items-center justify-content-center ours-skills-btn-container">
+          <div className=" container d-flex align-items-center justify-content-center our-skills-btn">
             Check Out Our Skills
           </div>
         </div>

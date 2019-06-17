@@ -10,7 +10,7 @@
 .header {
   height: 10vh;
   background-color: #29b2cf;
-  width: 100vw;
+  width: 90vw;
 }
 
 .header-logo {
@@ -174,7 +174,7 @@
     margin-top: -4vh;
   }
   .stdev-img-container {
-    margin-left: -3vw;
+    margin-left: -5vw;
     width: 100vw;
     height: 60vh;
     -ms-flex-pack: distribute;
@@ -201,6 +201,7 @@
 }
 
 .our-skills-container {
+  min-height: 90vh;
   height: 90vh;
   background-color: #E7E5D8;
   -webkit-box-pack: center;
@@ -266,7 +267,7 @@
 
 .our-skills-btn {
   height: 60px;
-  width: 300px;
+  width: 600px;
   background-color: #1B1D20;
   font-family: 'Lato',sans-serif;
   font-size: calc(9px + 1vw);
@@ -295,7 +296,19 @@
     width: 80%;
   }
   .our-skills-btn {
-    width: 850px;
+    width: 50vw;
   }
+}
+
+@media (max-width: 650px) {
+  .our-skills-btn {
+    width: 60vw;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=stylesheet.css.map */
