@@ -37,4 +37,10 @@
     height: 5%;
   }
 }
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .hero {
+    border: 1px solid black;
+  }
+}
 /*# sourceMappingURL=Hero.css.map */
