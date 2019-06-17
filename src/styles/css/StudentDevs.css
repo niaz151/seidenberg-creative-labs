@@ -34,6 +34,8 @@
   height: 400px;
   width: 380px;
   margin-top: -6vh;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
 }
 
 .stdev-text-container {
@@ -99,29 +101,32 @@
             flex-direction: column;
   }
   .stdev-img {
-    margin-top: -4vh;
+    margin-top: -12vh;
+    width: 300px;
+    height: 350px;
   }
   .stdev-alert {
     margin-top: -4vh;
   }
   .stdev-img-container {
-    margin-left: -5vw;
-    width: 100vw;
+    margin-left: 2vw;
+    width: 80vw;
     height: 60vh;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
   .stdev-text-container {
-    margin-left: -5vw;
+    margin-left: -6vw;
     width: 100vw;
     height: 60vh;
-    margin-top: -2vh;
+    margin-top: -8vh;
   }
   .std-text {
     font-size: calc(10px + 1vw);
-    margin-top: 2vh;
+    margin-top: 5vh;
   }
   .std-text-header {
+    margin-left: -3vw;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
