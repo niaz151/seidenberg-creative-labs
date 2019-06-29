@@ -27,6 +27,12 @@
   width: 50px;
 }
 
+@media screen and (orientation: landscape) {
+  .header-container {
+    height: 18vh;
+  }
+}
+
 .hero {
   background-color: #29b2cf;
   height: 90vh;
@@ -59,6 +65,9 @@
 }
 
 @media (max-width: 800px) {
+  .hero {
+    height: 80vh;
+  }
   .hero-title-container {
     height: 12%;
   }
@@ -67,9 +76,11 @@
   }
 }
 
-@media (max-width: 800px) and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   .hero {
     border: 1px solid black;
+    height: 120vh;
+    width: 100vw;
   }
 }
 
@@ -211,6 +222,12 @@
   }
 }
 
+@media screen and (orientation: landscape) {
+  .stdev {
+    height: 150vh;
+  }
+}
+
 .our-skills-container {
   min-height: 90vh;
   height: 90vh;
@@ -317,6 +334,12 @@
   }
   .our-skills-btn {
     width: 60vw;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .our-skills-container {
+    height: 160vh;
   }
 }
 

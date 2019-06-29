@@ -34,6 +34,9 @@
 
 
 @media(max-width:800px){
+    .hero{
+        height: 80vh;
+    }
     .hero-title-container{
         height:12%;
     }
@@ -44,9 +47,10 @@
 }
 
 
-@media(max-width:800px) and (orientation: landscape){
-    .hero{
-        border:1px solid black;
-      
-    }
+@media screen and (orientation: landscape){
+  .hero{
+      border:1px solid black;
+      height: 120vh;
+      width: 100vw;
+  }
 }

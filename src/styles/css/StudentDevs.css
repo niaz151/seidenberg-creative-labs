@@ -135,4 +135,10 @@
             justify-content: center;
   }
 }
+
+@media screen and (orientation: landscape) {
+  .stdev {
+    height: 150vh;
+  }
+}
 /*# sourceMappingURL=StudentDevs.css.map */

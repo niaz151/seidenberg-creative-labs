@@ -106,4 +106,10 @@
     width: 60vw;
   }
 }
+
+@media screen and (orientation: landscape) {
+  .our-skills-container {
+    height: 160vh;
+  }
+}
 /*# sourceMappingURL=OurSkills.css.map */

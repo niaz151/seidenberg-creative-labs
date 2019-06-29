@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4233a78f.chunk.css",
+    "main.css": "/static/css/main.1a95cbcc.chunk.css",
     "main.js": "/static/js/main.514530b2.chunk.js",
     "main.js.map": "/static/js/main.514530b2.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.d6a534e5.chunk.js": "/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a478c09999db8413d93e20bcfc168e8d.js": "/precache-manifest.a478c09999db8413d93e20bcfc168e8d.js",
+    "precache-manifest.58b5716517ccfb11bdc76037ee484b57.js": "/precache-manifest.58b5716517ccfb11bdc76037ee484b57.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4233a78f.chunk.css.map": "/static/css/main.4233a78f.chunk.css.map",
+    "static/css/main.1a95cbcc.chunk.css.map": "/static/css/main.1a95cbcc.chunk.css.map",
     "static/media/brain.png": "/static/media/brain.a785f868.png",
     "static/media/laptop.png": "/static/media/laptop.37f24f94.png"
   }
