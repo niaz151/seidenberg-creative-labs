@@ -26,10 +26,3 @@
   height: 50px;
   width: 50px;
 }
-
-@media screen and (orientation: landscape) {
-  .header-container {
-    height: 18vh;
-  }
-}
-/*# sourceMappingURL=Header.css.map */

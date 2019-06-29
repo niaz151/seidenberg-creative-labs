@@ -1,8 +1,8 @@
-@import '../_variables.scss';
+@import './_variables.scss';
 
 
 .hero{
-    background-color: $header-bg-c;
+    background-color: #29b2cf;
     height: 90vh;
     width: 100vw;
 }
@@ -46,11 +46,3 @@
     }
 }
 
-
-@media screen and (orientation: landscape){
-  .hero{
-      border:1px solid black;
-      height: 120vh;
-      width: 100vw;
-  }
-}

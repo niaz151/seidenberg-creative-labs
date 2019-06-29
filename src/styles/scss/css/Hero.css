@@ -40,12 +40,3 @@
     height: 5%;
   }
 }
-
-@media screen and (orientation: landscape) {
-  .hero {
-    border: 1px solid black;
-    height: 120vh;
-    width: 100vw;
-  }
-}
-/*# sourceMappingURL=Hero.css.map */
