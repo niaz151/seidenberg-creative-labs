@@ -1,0 +1,35 @@
+/* = = = = = = = = = = = = = = = HEADER = = = = = = = = = = = = = */
+.header-container {
+  height: 10vh;
+  background-color: #29b2cf;
+  z-index: 2;
+  opacity: 0.9;
+  width: 100vw;
+}
+
+.header {
+  height: 10vh;
+  background-color: #29b2cf;
+  width: 90vw;
+}
+
+.header-logo {
+  font-size: 25px;
+  letter-spacing: 0.05em;
+}
+
+.header-link {
+  font-family: 'Lato', sans-serif;
+}
+
+.brain-img {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (orientation: landscape) {
+  .header-container {
+    height: 18vh;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,51 @@
+.hero {
+  background-color: #29b2cf;
+  height: 90vh;
+  width: 100vw;
+}
+
+.hero-title-container {
+  height: 15%;
+}
+
+.hero-title {
+  color: white;
+  font-size: calc(14px + 4vw);
+  font-weight: 200;
+  letter-spacing: 0.01em;
+}
+
+.hero-title-heavy {
+  font-weight: 400;
+}
+
+.hero-subtitle-container {
+  height: 10%;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: calc(14px + 1vw);
+  font-weight: 200;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero-title-container {
+    height: 12%;
+  }
+  .hero-subtitle-container {
+    height: 5%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .hero {
+    border: 1px solid black;
+    height: 120vh;
+    width: 100vw;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

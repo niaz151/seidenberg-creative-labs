@@ -47,6 +47,10 @@
 }
 
 
-@media(max-width:800px) and (orientation: landscape){
-  
+@media screen and (orientation: landscape){
+  .hero{
+      border:1px solid black;
+      height: 120vh;
+      width: 100vw;
+  }
 }

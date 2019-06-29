@@ -32,4 +32,8 @@
 }
 
 
-
+@media screen and (orientation: landscape){
+    .header-container{
+        height: 18vh;
+    }
+}
