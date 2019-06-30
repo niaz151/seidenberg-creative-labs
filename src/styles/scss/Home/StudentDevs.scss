@@ -3,41 +3,41 @@
 /* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
 
 .stdev{
-    height: 95vh;
-    width: 100vw;
+    height: $stdev-h;
+    width: $stdev-w;
 }
 
 .stdev-container{
-    flex-direction: row;
+    flex-direction: $stdev-container-flex-d;
 }
 
 .stdev-img-container{
-    height:100%;
-    width:50%;
+    height:$stdev-img-container-h;
+    width:$stdev-img-container-w;
     justify-content:center;
 }
 
 .stdev-alert{
     font-size:calc(10px + 1vw);
-    font-weight: 300;
+    font-weight: $stdev-alert-font-w;
     font-family:'Lato',sans-serif;
-    margin-top:-12vh;
+    margin-top: $stdev-alert-mt;
 }
 
 .std-alert-quote{
-    color: #6EE5FB;
+    color: $stdev-alert-color;
 }
 
 .stdev-img{
-    height:400px;
-    width:380px;
-    margin-top:-6vh;
+    height:$stdev-img-h;
+    width:$stdev-img-w;
+    margin-top:$stdev-img-mt;
     transform: rotate(-12deg);
 }
 
 .stdev-text-container{  
-    height:100%;
-    width:50%;
+    height:$stdev-text-container-h;
+    width:$stdev-text-container-w;
 }
 
 .stdev-text-container{
@@ -45,28 +45,28 @@
 }
 
 .stdev-text-subcontainer{
-    height:80%;
-    margin-top:2vh;
+    height:$stdev-text-subcontainer-h;
+    margin-top:$stdev-text-subcontainer-mt;
 }
 
 .std-text-header{
+    width:$std-text-header-w;
+    font-weight: $std-text-header-font-w;
+    align-items: flex-end;
     text-align:left;
     flex:1;
     font-family:'Lato',sans-serif;
     font-size:calc(15px + 2vw);
-    width:85%;
-    font-weight: 300;
-    align-items: flex-end;
 }
 
 .std-text{
-    width:85%;
-    flex:1;
-    line-height:1.5em;
+    width:$std-text-w;
+    line-height:$std-text-line-h;
     font-family: 'Lato', sans-serif;
     font-size:calc(6px + 1vw);
-    font-weight:300;
-    margin-top: 2vh;
+    font-weight:$std-text-font-w;
+    margin-top: $std-text-mt;
+    flex:1;
 }
 
 .std-text-p1{
@@ -79,38 +79,38 @@
 
 @media(max-width:800px){
     .stdev{
-        height:130vh;
+        height:$stdev-mh;
        
     }
     .stdev-flex-control{
         flex-direction: column;
     }
     .stdev-img{
-        margin-top:-12vh;
-        width: 300px;
-        height:350px;
+        height:$stdev-img-mh;
+        width: $stdev-img-mw;
+        margin-top:$stdev-img-m-mt;
     }
     .stdev-alert{
-        margin-top:-4vh;
+        margin-top:$stdev-alert-m-mt;
     }
     .stdev-img-container{
-        margin-left:2vw;
-        width:80vw;
-        height:60vh;
+        height:$stdev-img-container-mh;
+        width: $stdev-img-container-mw;
         justify-content: space-around;
+        margin-left:$stdev-img-container-m-ml;
     }
-    .stdev-text-container{  
-        margin-left:-6vw;
-        width:100vw;
-        height:60vh;
-        margin-top:-8vh;
+    .stdev-text-container{ 
+        height:$stdev-text-container-mh;
+        width:$stdev-text-containr-mw; 
+        margin-top:$stdev-text-container-m-mt;
+        margin-left:$stdev-text-container-m-ml;
     }
     .std-text{
         font-size:calc(10px + 1vw);  
-        margin-top:5vh;
+        margin-top:$std-text-m-mt;
     }
     .std-text-header{
-        margin-left:-3vw;
+        margin-left:$std-text-header-m-ml;
         align-items: center;
         justify-content: center;
     }

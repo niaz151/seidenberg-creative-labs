@@ -2,47 +2,47 @@
 
 
 .hero{
-    background-color: #29b2cf;
-    height: 90vh;
-    width: 100vw;
+    background-color: $hero-bg-c;
+    height: $hero-h;
+    width: $hero-w;
 }
 
 .hero-title-container{
-    height:15%;
+    height:$hero-title-container-h;
 }
 
 .hero-title{
-    color:$home-hero-font-color;
+    color:$hero-font-color;
     font-size:calc(14px + 4vw);
-    font-weight:$home-hero-light-font-w;
-    letter-spacing: 0.01em;
+    font-weight:$hero-light-font-w;
+    letter-spacing: $hero-title-letter-spacing;
 }
 
 .hero-title-heavy{
-    font-weight:$home-hero-heavy-font-w;
+    font-weight:$hero-heavy-font-w;
 }
 
 .hero-subtitle-container{
-    height:10%;
+    $hero-subtitle-container-h:10%;
 }
 
 .hero-subtitle{
-    color:$home-hero-font-color;
+    color:$hero-font-color;
     font-size:calc(14px + 1vw);
-    font-weight:$home-hero-light-font-w;
+    font-weight:$hero-light-font-w;
 }
 
 
 @media(max-width:800px){
     .hero{
-        height: 80vh;
+        height: $hero-mh;
     }
     .hero-title-container{
-        height:12%;
+        height:$hero-title-container-mh;
     }
 
     .hero-subtitle-container{
-        height:5%;
+        height:$hero-subtitle-container-mh;
     }
 }
 

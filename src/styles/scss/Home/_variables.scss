@@ -1,6 +1,101 @@
 
-$home-hero-font-color: white;
-$home-hero-light-font-w: 200;
-$home-hero-heavy-font-w: 400;
+/* ================== HERO ================= */
+
+$hero-h: 90vh;
+$hero-mh: 80vh;
+$hero-w: 100vw;
+$hero-bg-c: #29b2cf;
+$hero-font-color: white;
+$hero-light-font-w: 200;
+$hero-heavy-font-w: 400;
+
+$hero-title-container-h: 15%;
+$hero-title-container-mh: 12%;
+$hero-title-letter-spacing: 0.01em;
+
+$hero-subtitle-container-h: 10%;
+$hero-subtitle-container-mh: 5%;
+
+/* ================== STUDENT DEV ================= */
+
+$stdev-h: 95vh;
+$stdev-mh: 130vh;
+$stdev-w: 100vw;
+
+$stdev-container-flex-d: row;
+
+$stdev-img-container-h: 100%;
+$stdev-img-container-mh: 60vh;
+$stdev-img-container-w: 50%;
+$stdev-img-container-mw: 80vw;
+$stdev-img-container-m-ml: 2vw;
+
+$stdev-alert-font-w:300;
+$stdev-alert-mt: -12vh;
+$stdev-alert-m-mt: -4vh;
+$stdev-alert-color: #6EE5FB;
+
+$stdev-img-h: 400px;
+$stdev-img-mh: 350px;
+$stdev-img-w: 380px;
+$stdev-img-mw: 300px;
+$stdev-img-mt: -6vh;
+$stdev-img-m-mt: -12vh;
+
+$stdev-text-container-h: 100%;
+$stdev-text-container-mh: 60vh;
+$stdev-text-container-w: 50%;
+$stdev-text-containr-mw: 100vw;
+$stdev-text-container-m-mt: -8vh;
+$stdev-text-container-m-ml: -6vw;
+
+$stdev-text-subcontainer-h: 80%;
+$stdev-text-subcontainer-mt: 2vh;
+
+$std-text-header-w: 85%;
+$std-text-header-font-w: 300;
+$std-text-header-m-ml: -3vw;
+
+$std-text-w: 85%;
+$std-text-line-h: 1.5em;
+$std-text-font-w: 300;
+$std-text-mt: 2vh;
+$std-text-m-mt: 5vh;
+
+
+/* ================== OUR SKILLS ================= */
+
+$our-skills-container-h: 90vh;
+$our-skills-container-mh:135vh;
+$our-skills-container-bg-c: #E7E5D8;
+
+$our-skills-header-h: 15%;
+$our-skills-font-w: 300;
+
+$our-skills-icon-container-h: 45%;
+$our-skills-icon-container-mh: 100vh;
+$our-skills-icon-container-m-mt: -6vh;
+
+$our-skills-icon-h: 100%;
+$our-skills-icon-m-mt: 5vh;
+
+$our-skills-icon-header-font-size: 20px;
+$our-skills-icon-header-font-w: 400;
+$our-skills-icon-header-mt: 2vh;
+
+$our-skills-icon-img-h: 80px;
+$our-skills-icon-img-w: 80px;
+$our-skills-icon-img-border-r: 100px;
+$our-skills-icon-img-bg-c: #1B1D20;
+
+$our-skills-icon-desc-font-w: 300;
+$our-skills-icon-desc-mw:80%;
+$our-skills-icon-desc-mt: 1vh;
+
+$our-skills-btn-h: 60px;
+$our-skills-btn-w: 600px;
+$our-skills-btn-mw: 50vw;
+$our-skills-btn-bg-c: #1B1D20;
+$our-skills-btn-color: white;
 
 $our-skills-bg-c:#E7E5D8;

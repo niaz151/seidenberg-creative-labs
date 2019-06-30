@@ -27,6 +27,9 @@
   width: 50px;
 }
 
+/* ================== HERO ================= */
+/* ================== STUDENT DEV ================= */
+/* ================== OUR SKILLS ================= */
 .hero {
   background-color: #29b2cf;
   height: 90vh;
@@ -48,10 +51,6 @@
   font-weight: 400;
 }
 
-.hero-subtitle-container {
-  height: 10%;
-}
-
 .hero-subtitle {
   color: white;
   font-size: calc(14px + 1vw);
@@ -70,6 +69,9 @@
   }
 }
 
+/* ================== HERO ================= */
+/* ================== STUDENT DEV ================= */
+/* ================== OUR SKILLS ================= */
 /* = = = = = = = = = = = = = = = STUDENT DEVS = = = = = = = = = = = = = */
 .stdev {
   height: 95vh;
@@ -125,29 +127,29 @@
 }
 
 .std-text-header {
+  width: 85%;
+  font-weight: 300;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: left;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   font-family: 'Lato',sans-serif;
   font-size: calc(15px + 2vw);
-  width: 85%;
-  font-weight: 300;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 
 .std-text {
   width: 85%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   line-height: 1.5em;
   font-family: 'Lato', sans-serif;
   font-size: calc(6px + 1vw);
   font-weight: 300;
   margin-top: 2vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .std-text-p1 {
@@ -173,25 +175,25 @@
             flex-direction: column;
   }
   .stdev-img {
-    margin-top: -12vh;
-    width: 300px;
     height: 350px;
+    width: 300px;
+    margin-top: -12vh;
   }
   .stdev-alert {
     margin-top: -4vh;
   }
   .stdev-img-container {
-    margin-left: 2vw;
-    width: 80vw;
     height: 60vh;
+    width: 80vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin-left: 2vw;
   }
   .stdev-text-container {
-    margin-left: -6vw;
-    width: 100vw;
     height: 60vh;
+    width: 100vw;
     margin-top: -8vh;
+    margin-left: -6vw;
   }
   .std-text {
     font-size: calc(10px + 1vw);

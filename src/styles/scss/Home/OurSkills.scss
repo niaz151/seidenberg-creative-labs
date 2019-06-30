@@ -1,53 +1,52 @@
 .our-skills-container{
     min-height:90vh;
-    height: 90vh;
-    background-color: #E7E5D8;
+    height: $our-skills-container-h;
+    background-color: $our-skills-container-bg-c;
     justify-content: space-around;
 }
 
 .our-skills-header{
-    height:15%;
+    height:$our-skills-header-h%;
+    font-weight:$our-skills-font-w;
     font-family:'Lato',sans-serif;
     font-size:calc(20px + 2vw);  
-    font-weight:300;
 }
 
 .our-skills-icon-container{
-    height:45%;
+    height:$our-skills-icon-container-h;
     flex-direction: row;
 }
 
 .our-skills-icon{
-    height:100%;
+    height: $our-skills-icon-h;
     flex:1;
     flex-direction: column;
 }
 
 .our-skills-icon-header{
     font-family: 'Lato',sans-serif;
-    font-size:20px;
-    font-weight: 400;
-    margin-top:2vh;
+    font-size:$our-skills-icon-header-font-size;
+    font-weight: $our-skills-icon-header-font-w;
+    margin-top:$our-skills-icon-header-mt;
 }
 
 .our-skills-icon-img{
-    height:80px;
-    background-color: #1B1D20;
-    width:80px;
-    border-radius: 100px;
+    height:$our-skills-icon-img-h;
+    width:$our-skills-icon-img-w;
+    border-radius: $our-skills-icon-img-border-r;
+    background-color: $our-skills-icon-img-bg-c;
 }
 
 .our-skills-icon-desc{
     text-align: center;
     font-family: 'Lato',sans-serif;
     font-size:calc(12px + 0.5vw);  
-    font-weight:300;
-    margin-top:1vh;
+    font-weight:$our-skills-icon-desc-font-w;
+    margin-top:$our-skills-icon-desc-mt;
 }
 
 .ours-skills-btn-container{
     height:15%;
-
 }
 
 .icon{
@@ -55,34 +54,34 @@
 }
 
 .our-skills-btn{
-    height:60px;
-    width: 600px;
-    background-color: #1B1D20;
+    height:$our-skills-btn-h;
+    width: $our-skills-btn-w;
+    background-color: $our-skills-btn-bg-c;
+    color:$our-skills-btn-color;
     font-family: 'Lato',sans-serif;
     font-size:calc(9px + 1vw);  
-    color:white;
 }
 
 @media(max-width:800px){
 
     .our-skills-container{
       justify-content: space-between;
-      height:135vh;
+      height:$our-skills-container-mh;
       overflow-x:hidden;
     }
     .our-skills-icon-container{
       flex-direction: column;
-      margin-top:-6vh;
-      height:100vh;
+      margin-top:$our-skills-icon-container-m-mt;
+      height:$our-skills-icon-container-mh;
     }
     .our-skills-icon{
-        margin-top:5vh;
+        margin-top:$our-skills-icon-m-mt;
     }
     .our-skills-icon-desc{
-        width:80%;
+        width:$our-skills-icon-desc-mw;
     }
     .our-skills-btn{
-        width: 50vw;
+        width:$our-skills-btn-mw;
     }
 }
 

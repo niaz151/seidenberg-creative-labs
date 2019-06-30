@@ -1,3 +1,6 @@
+/* ================== HERO ================= */
+/* ================== STUDENT DEV ================= */
+/* ================== OUR SKILLS ================= */
 .hero {
   background-color: #29b2cf;
   height: 90vh;
@@ -17,10 +20,6 @@
 
 .hero-title-heavy {
   font-weight: 400;
-}
-
-.hero-subtitle-container {
-  height: 10%;
 }
 
 .hero-subtitle {
