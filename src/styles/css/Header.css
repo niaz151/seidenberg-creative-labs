@@ -26,3 +26,13 @@
   height: 50px;
   width: 50px;
 }
+
+@media only screen and (max-device-width: 850px) and (orientation: landscape) {
+  .header-container {
+    height: 20vh;
+  }
+  .header {
+    margin-top: 5vh;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

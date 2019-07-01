@@ -138,3 +138,16 @@
             justify-content: center;
   }
 }
+
+@media only screen and (max-device-width: 850px) and (orientation: landscape) {
+  .stdev {
+    height: 160vh;
+  }
+  .stdev-alert {
+    margin-top: -15vh;
+  }
+  .stdev-img {
+    margin-top: -25vh;
+  }
+}
+/*# sourceMappingURL=StudentDevs.css.map */

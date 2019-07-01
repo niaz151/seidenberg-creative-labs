@@ -4,6 +4,11 @@
 @import './Home/StudentDevs.scss';
 @import './Home/OurSkills.scss';
 
+html{
+    padding: env(safe-area-inset);
+}
+
 body{
     overflow-x:hidden;
 }
+

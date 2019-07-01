@@ -31,3 +31,11 @@
     width:50px;
 }
 
+@media only screen and (max-device-width: 850px) and (orientation: landscape){
+    .header-container{
+        height: $header-container-m-land-h;
+    }
+    .header{
+        margin-top:$header-m-land-mt;
+    }
+}

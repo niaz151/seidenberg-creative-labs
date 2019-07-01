@@ -113,6 +113,17 @@
         margin-left:$std-text-header-m-ml;
         align-items: center;
         justify-content: center;
+    } 
+}
+
+@media only screen and (max-device-width: 850px) and (orientation: landscape){
+    .stdev{
+        height: $stdev-m-land-h;
     }
- 
+    .stdev-alert{
+        margin-top:$stdev-alert-m-land-mt;
+    }
+    .stdev-img{
+        margin-top:$stdev-img-m-land-mt;
+    }
 }
