@@ -1,5 +1,9 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
+import Home from '../pages/Home/Home';
+import Skills from '../pages/Skills/Skills';
+import Projects from '../pages/Projects/Projects';
+import Team from '../pages/Team/Team';
 class Header extends React.Component{
 
   render(){
@@ -21,16 +25,19 @@ class Header extends React.Component{
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item pr-3">
-                <a className="nav-link text-light header-link" href="#">Team <span class="sr-only">(current)</span></a>
+                <Link to="/team" component={Team}>
+                  <a className="nav-link text-light header-link" href="#">Team <span class="sr-only">(current)</span></a>
+                </Link>
               </li>
               <li className="nav-item pr-3">
-                <a className="nav-link text-light header-link" href="#">Skills</a>
+                <Link to="/skills" component={Skills}>
+                  <a className="nav-link text-light header-link" href="#"> Skills <span class="sr-only">(current)</span></a>
+                </Link>
               </li>
               <li className="nav-item pr-3">
-                <a className="nav-link text-light header-link" href="#">Projects</a>
-              </li>
-              <li className="nav-item pr-3">
-                <a className="nav-link text-light header-link" href="#">Contact</a>
+                <Link to="/projects" component={Projects}>
+                  <a className="nav-link text-light header-link" href="#"> Projects <span class="sr-only">(current)</span></a>
+                </Link>
               </li>
             </ul>
           </div>
