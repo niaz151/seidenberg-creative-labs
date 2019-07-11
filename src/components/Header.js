@@ -39,6 +39,11 @@ class Header extends React.Component{
                   <a className="nav-link text-light header-link" href="#"> Projects <span class="sr-only">(current)</span></a>
                 </Link>
               </li>
+              <li className="nav-item pr-3">
+                <Link to="/projects" component={Projects}>
+                  <a className="nav-link text-light header-link" href="#"> Contact <span class="sr-only">(current)</span></a>
+                </Link>
+              </li>
             </ul>
           </div>
           
