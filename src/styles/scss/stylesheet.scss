@@ -3,6 +3,8 @@
 @import './Home/Hero.scss';
 @import './Home/StudentDevs.scss';
 @import './Home/OurSkills.scss';
+@import './Skills//Development.scss';
+@import './Skills/Research.scss';
 
 html{
     padding: env(safe-area-inset);

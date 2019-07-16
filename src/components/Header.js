@@ -10,7 +10,6 @@ class Header extends React.Component{
     return(
       <div className="header-container fixed-top ">
         <nav className="navbar navbar-expand-lg navbar-light container header">
-
           <div>
             <a href="#"> 
               <img src={require("../images/brain.png")} className="brain-img" />
@@ -26,22 +25,22 @@ class Header extends React.Component{
             <ul className="navbar-nav ml-auto">
               <li className="nav-item pr-3">
                 <Link to="/team" component={Team}>
-                  <a className="nav-link text-light header-link" href="#">Team <span class="sr-only">(current)</span></a>
+                  <a className="nav-link text-light header-link" href="#">Team <span className="sr-only">(current)</span></a>
                 </Link>
               </li>
               <li className="nav-item pr-3">
                 <Link to="/skills" component={Skills}>
-                  <a className="nav-link text-light header-link" href="#"> Skills <span class="sr-only">(current)</span></a>
+                  <a className="nav-link text-light header-link" href="#"> Skills <span className="sr-only">(current)</span></a>
                 </Link>
               </li>
               <li className="nav-item pr-3">
                 <Link to="/projects" component={Projects}>
-                  <a className="nav-link text-light header-link" href="#"> Projects <span class="sr-only">(current)</span></a>
+                  <a className="nav-link text-light header-link" href="#"> Projects <span className="sr-only">(current)</span></a>
                 </Link>
               </li>
               <li className="nav-item pr-3">
                 <Link to="/projects" component={Projects}>
-                  <a className="nav-link text-light header-link" href="#"> Contact <span class="sr-only">(current)</span></a>
+                  <a className="nav-link text-light header-link" href="#"> Contact <span className="sr-only">(current)</span></a>
                 </Link>
               </li>
             </ul>

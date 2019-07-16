@@ -1,0 +1,94 @@
+.research-container{
+  height: 90vh;
+  width: 100vw;
+  background-color: #4EB2CF;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-heading{
+  height:15%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-title{
+  font-family: 'Lato',sans-serif;
+  font-size:calc(20px + 2.2vw);
+  color:white;
+  font-weight:300;
+}
+
+.research-subtitle{
+  font-family: 'Lato',sans-serif;
+  font-size:calc(12px + 0.5vw);
+  color:white;
+  font-weight:300;
+}
+
+.research-items{
+  height:55%;
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.research-item{
+  height: 40%;
+  width:33%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.research-icon-header-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.research-icon-wrap{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.research-icon{
+  font-size:30px;
+  color:#4EB2CF;
+}
+
+.research-icon-header{
+  font-family: 'Lato',sans-serif;
+  font-size:calc(12px + 0.8vw);
+  color:white;
+  font-weight: 300;
+}
+
+.research-icon-desc{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lato',sans-serif;
+  font-size:calc(12px + 0.2vw);
+  color:white;
+  font-weight:300;
+}
