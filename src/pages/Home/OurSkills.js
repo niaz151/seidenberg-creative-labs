@@ -26,7 +26,7 @@ const OurSkills = () => {
               <i className="fas fa-chart-bar fa-2x icon"></i>
             </div>
             <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-header">
-                Research
+                design
             </div>
             <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-desc">
               Working side by side with clients, we create products which bring their visions to life. Anything is possible.

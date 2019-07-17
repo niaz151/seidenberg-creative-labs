@@ -10,7 +10,7 @@ const Hero = () => {
         <span className="hero-title hero-title-heavy"> Creative Labs </span>
       </div>
       <div className="container w-100 d-flex align-items-center justify-content-center hero-subtitle-container ">
-        <span className="hero-subtitle"> Technology Research and Development </span>
+        <span className="hero-subtitle"> Technology design and Development </span>
       </div>
       <CurvedBottom color="white"/>
     </div>
