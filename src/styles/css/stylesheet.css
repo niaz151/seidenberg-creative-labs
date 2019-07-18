@@ -564,15 +564,15 @@
             flex-direction: row;
   }
   .development-computer-img {
-    height: 80%;
+    height: 70%;
     width: 60%;
   }
   .development-phone-img {
-    height: 100%;
+    height: 80%;
     width: 55%;
   }
   .development-laptop-img {
-    height: 130%;
+    height: 140%;
     width: 70%;
   }
   .development-icon-desc {
@@ -711,9 +711,11 @@
   font-size: calc(12px + 0.8vw);
   color: white;
   font-weight: 300;
+  margin-top: 1vh;
 }
 
 .design-icon-desc {
+  height: auto;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -736,9 +738,10 @@
     height: 140vh;
   }
   .design-heading {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    height: 10%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .design-items {
     height: 80%;
@@ -759,6 +762,9 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+  .design-icon-header {
+    margin-top: 2vh;
   }
 }
 

@@ -79,9 +79,11 @@
   font-size:calc(12px + 0.8vw);
   color:white;
   font-weight: 300;
+  margin-top:1vh;
 }
 
 .design-icon-desc{
+  height:auto;
   width: 80%;
   display: flex;
   align-items: center;
@@ -99,7 +101,8 @@
     height: 140vh;
   }
   .design-heading{
-    justify-content: flex-end;
+    height:10%;
+    justify-content: center;
   }
   .design-items{
     height:80%;
@@ -111,6 +114,9 @@
   .design-item{
     flex:1;
   }
+.design-icon-header{
+  margin-top:2vh;
+}
 }
 
 
