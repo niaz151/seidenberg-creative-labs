@@ -123,13 +123,13 @@
 
 @media only screen and (max-device-width: 900px) and (orientation: landscape){
   .design-container{
-    height: 120vh;
+    height: 150vh;
   }
   .design-heading{
     height:15%;
   }
   .design-items{
-    border:1px solid white;
+  
     width: 95%;
     height: 60%;
     flex-direction: row;
@@ -137,7 +137,7 @@
     align-items: flex-end;
   }
   .design-item{
-    border:1px solid white;
+  
     width: 33%;
     flex:none;
   }
