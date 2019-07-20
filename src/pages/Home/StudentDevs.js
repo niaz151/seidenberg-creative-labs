@@ -7,6 +7,9 @@ const StudentDevs = () => {
     <div className="container-fluid position-relative d-flex stdev">
       <div className="container-fluid d-flex h-100 w-100 stdev-container stdev-flex-control">
         <div className="container-fluid d-flex flex-column align-items-center justify-content-center stdev-img-container">
+
+          {/* = = = = = = = = = =  ALERT CONTAINER = = = = = = = = = =  */ }
+
           <div className="container-fluid h-25 d-flex align-items-center justify-content-center stdev-alert">
             <span>
               alert ("
@@ -18,10 +21,16 @@ const StudentDevs = () => {
               ");
             </span>
           </div>
+
+          {/* = = = = = = = = = =  IMG CONTAINER = = = = = = = = = =  */ }
+
           <div className="container-fluid h-50 w-100 d-flex align-items-center justify-content-center">
             <img src={require('../../images/laptop.png')} className="stdev-img" />
           </div>
         </div>
+
+        {/* = = = = = = = = = =  ALERT CONTAINER = = = = = = = = = =  */ }
+
         <div className='container-fluid d-flex flex-column align-items-center justify-content-center stdev-text-container'>
           <div className="container-fluid d-flex flex-column justify-content-between align-items-center stdev-text-subcontainer">
             <div className='std-text-header text-left align-items-end  d-flex'>
@@ -39,6 +48,8 @@ const StudentDevs = () => {
             </div>  
           </div>
         </div>
+
+        
       </div>
       <CurvedBottom color="#E7E5D8"/>
     </div>
