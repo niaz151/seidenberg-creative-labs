@@ -17,9 +17,6 @@
 .stdev-img-container {
   height: 100%;
   width: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .stdev-alert {
@@ -58,10 +55,6 @@
 .std-text-header {
   width: 85%;
   font-weight: 300;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: left;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
