@@ -82,7 +82,7 @@
 
 @media(max-width:900px){
   .consultancy-container{
-    height:90vh;
+    height:110vh;
     align-items: center;
     justify-content: center;
   }
@@ -119,5 +119,28 @@
 
 
 @media only screen and (max-device-width: 900px) and (orientation: landscape){
-
+  .consultancy-container{
+    height:120vh;
+    justify-content: center;
+  }
+  .consultancy-heading{
+    margin-top:15vh;
+  }
+  .consultancy-items{
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .consultancy-img-wrap{
+    flex:1;
+  }
+  .consultancy-text-wrap{
+    flex:4;
+    justify-content: space-between;
+  }
+  .consultancy-text-wrap div{
+    width: 100%;
+    text-align: start;
+  }
 }
