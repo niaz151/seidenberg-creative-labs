@@ -63,7 +63,7 @@
 }
 
 .development-item-desc {
-  height: auto;
+  height: 40%;
   font-family: 'Lato',sans-serif;
   font-size: calc(12px + .1vw);
   font-weight: 300;

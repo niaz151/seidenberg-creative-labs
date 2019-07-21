@@ -1,0 +1,93 @@
+@import '../_variables.scss';
+
+.design-container{
+  height: 90vh;
+  width: 100%;
+  background-color: #4EB2CF;
+  margin-top: $header-h;
+}
+
+.design-header{
+  top:10vh;
+  height: 15%;
+}
+
+.design-title{
+  color:white;
+  font-weight: 300;
+  font-family:'Lato',sans-serif;
+  font-size: calc(20px + 1.2vw);
+}
+
+.design-subtitle{
+  color:white;
+  font-weight: 300;
+  font-family:'Lato',sans-serif;
+  font-size:calc(14px + .3vw);
+}
+
+.design-items{
+  margin-top:10vh;
+  width: 100%;
+
+  flex-wrap: wrap;
+  height:50%;
+  
+}
+
+.design-item{
+
+  height: auto;
+  flex:1;
+  
+}
+
+.design-item-icon{
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 40px;
+  
+}
+
+.design-icon{
+  font-size:30px;
+  color:#4EB2CF;
+}
+
+.design-item-text{
+  margin-top:5px;
+  height: auto;
+  
+  font-family: 'Lato',sans-serif;
+  color:white;
+  font-size:calc(12px + 0.5vw);
+  font-weight:300;
+}
+
+@media screen and (max-width: 850px){
+  .design-header{
+    top:5vh;
+  }
+  .design-items{
+    margin-top:10vh;
+    height: 70%;
+   
+  }
+}
+
+@media screen and (max-width: 850px) and (orientation:landscape){
+  .design-header{
+    top:10vh;
+  }
+  .design-items{
+    margin-top:20vh;
+  }
+  .design-item-icon{
+    height:70px;
+    width: 70px;
+  }
+  .design-icon{
+    font-size: 25px;
+  }
+}
