@@ -341,6 +341,7 @@
   }
 }
 
+/* = = = = = = = = DESIGN = = = = = = = = */
 .development-container {
   height: 80vh;
   width: 100%;
@@ -473,8 +474,9 @@
   }
 }
 
+/* = = = = = = = = DESIGN = = = = = = = = */
 .design-container {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   background-color: #4EB2CF;
   margin-top: 10vh;
@@ -527,7 +529,7 @@
 }
 
 .design-item-text {
-  margin-top: 5px;
+  margin-top: 5vh;
   height: auto;
   font-family: 'Lato',sans-serif;
   color: white;
@@ -536,12 +538,17 @@
 }
 
 @media screen and (max-width: 850px) {
+  .design-container {
+    height: 90vh;
+  }
   .design-header {
     top: 5vh;
   }
   .design-items {
-    margin-top: 10vh;
     height: 70%;
+  }
+  .design-item-text {
+    margin-top: 2vh;
   }
 }
 
@@ -557,7 +564,7 @@
     width: 70px;
   }
   .design-icon {
-    font-size: 25px;
+    font-size: 25x;
   }
 }
 

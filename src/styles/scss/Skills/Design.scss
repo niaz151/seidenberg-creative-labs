@@ -1,93 +1,92 @@
 @import '../_variables.scss';
+@import './variables';
 
 .design-container{
-  height: 90vh;
-  width: 100%;
-  background-color: #4EB2CF;
+  height: $design-container-h;
+  width: $design-container-w;
+  background-color: $design-container-bg-color;
   margin-top: $header-h;
 }
 
 .design-header{
-  top:10vh;
-  height: 15%;
+  top:$design-header-top;
+  height: $design-header-h;
 }
 
 .design-title{
-  color:white;
-  font-weight: 300;
+  color:$design-title-color;
+  font-weight: $design-title-font-w;
   font-family:'Lato',sans-serif;
-  font-size: calc(20px + 1.2vw);
+  font-size: $design-title-font-s;
 }
 
 .design-subtitle{
-  color:white;
-  font-weight: 300;
+  color:$design-subtitle-color;
+  font-weight: $design-subtitle-font-w;
   font-family:'Lato',sans-serif;
-  font-size:calc(14px + .3vw);
+  font-size:$design-subtitle-font-s;
 }
 
 .design-items{
-  margin-top:10vh;
-  width: 100%;
-
+  margin-top:$design-items-mt;
+  width: $design-items-w;
   flex-wrap: wrap;
-  height:50%;
-  
+  height:$design-items-h;
 }
 
 .design-item{
-
   height: auto;
   flex:1;
-  
 }
 
 .design-item-icon{
-  height: 80px;
-  width: 80px;
-  background-color: white;
-  border-radius: 40px;
-  
+  height: $design-item-icon-h;
+  width: $design-item-icon-w;
+  background-color: $design-item-bg-color;
+  border-radius: $design-item-bg-radius;
 }
 
 .design-icon{
-  font-size:30px;
-  color:#4EB2CF;
+  font-size:$design-icon-font-s;
+  color:$design-icon-color;
 }
 
 .design-item-text{
-  margin-top:5px;
+  margin-top:$design-item-text-mt;
   height: auto;
-  
   font-family: 'Lato',sans-serif;
-  color:white;
-  font-size:calc(12px + 0.5vw);
-  font-weight:300;
+  color:$design-item-text-color;
+  font-size:$design-item-text-font-s;
+  font-weight:$design-item-text-font-w;
 }
 
 @media screen and (max-width: 850px){
+  .design-container{
+    height:$design-container-m-h;
+  }
   .design-header{
-    top:5vh;
+    top:$design-header-m-top;
   }
   .design-items{
-    margin-top:10vh;
-    height: 70%;
-   
+    height: $design-items-m-h;
+  }
+  .design-item-text{
+    margin-top:$design-item-text-m-mt;
   }
 }
 
 @media screen and (max-width: 850px) and (orientation:landscape){
   .design-header{
-    top:10vh;
+    top:$design-header-top;
   }
   .design-items{
-    margin-top:20vh;
+    margin-top:$design-items-ml-mt;
   }
   .design-item-icon{
-    height:70px;
-    width: 70px;
+    height:$design-item-icon-ml-h;
+    width: $design-item-icon-ml-w;
   }
   .design-icon{
-    font-size: 25px;
+    font-size: $design-icon-font-ml-s;
   }
 }
