@@ -91,49 +91,37 @@
 
 @media screen and (max-width: 850px) and (orientation:landscape){
   .development-container{
-    height: 130vh;
+    height: $development-container-ml-h;
   }
   .development-header{
-    margin-top:10vh;
+    margin-top:$development-header-top;
   }
   .development-items{
-    width: 95%;
-    margin-top:30vh;
+    width: $development-items-w;
+    margin-top:$development-items-ml-mt;
     flex-direction: row !important;
-    height: 80%;
+    height: $development-items-ml-h;
   }
   .development-item-img-wrap{
-    
-    height: 40%;
+    height: $development-items-img-wrap-ml-h;
   }
   .development-computer-icon{
-    height: 70%;
-    width: 60%;
+    height: $development-computer-icon-ml-h;
+    width: $development-computer-icon-ml-w;
   }
   .development-phone-icon{
-    height: 70%;
-    width: 60%;
+    height:$development-phone-icon-ml-h;
+    width: $development-phone-icon-ml-w;
   }
   .development-laptop-icon{
-    height:110%;
-    width: 80%;
+    height:$development-laptop-icon-ml-h;
+    width: $development-laptop-icon-ml-w;
   }
   .development-item-desc{
-    
-    width: 130%;
-    margin-left:-15%;
-  }
-  .development-item{
-    
+    width: $development-item-desc-ml-w;
+    margin-left:$development-item-desc-ml-ml;
   }
   .development-item-text-wrap{
-    
-  }
-  .development-item-title{
-    
-  }
-  .development-item-text-wrap{
-    height: 35%;
-    
+    height: $development-item-text-wrap-ml-h;
   }
 }
