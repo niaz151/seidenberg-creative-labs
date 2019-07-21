@@ -1,16 +1,12 @@
 import React,{Fragment} from 'react';
 import Header from '../../components/Header';
-import Development from './Development';
-import Design from './Design';
-import Consultancy from './Consultancy';
+import Development from './Developmnent';
 
 const Skills = () => {
   return(
     <>
       <Header/>
       <Development/>      
-      <Design/>
-      <Consultancy/>
     </>
   )
 }

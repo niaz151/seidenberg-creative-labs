@@ -1,0 +1,90 @@
+@import '../_variables.scss';
+@import './variables';
+
+.development-container{
+  height: $development-container-h;
+  width: $development-container-w;
+  margin-top: $header-h;
+}
+
+.development-header{
+  top:$development-header-top;
+  height: $development-header-height;
+  font-weight: $development-header-font-w;
+  font-family: 'Lato',sans-serif; 
+}
+
+.development-title{
+  font-size:$development-title-font-s;  
+}
+
+.development-subtitle{
+  font-size:$development-subtitle-font-s;  
+}
+
+.development-items{
+  margin-top:$development-items-mt;
+  height: $development-items-h;
+  width: $development-items-w;
+}
+
+.development-item{
+  height: $development-item-h;
+  flex: $development-item-flex;
+}
+
+.development-item-img-wrap{
+  height: $development-item-img-wrap-h;
+}
+
+.development-computer-icon{
+  height: $development-computer-icon-h;
+  width: $development-computer-icon-w;
+}
+
+.development-phone-icon{
+  height: $development-phone-icon-h;
+  width: $development-phone-icon-w;
+}
+
+.development-laptop-icon{
+  height: $development-laptop-icon-h;
+  width: $development-laptop-icon-w;
+}
+
+.development-item-text-wrap{
+  height: $development-item-text-wrap-h; 
+}
+
+.development-item-title{
+  height: $development-item-title-h;
+  font-family: 'Lato',sans-serif;
+  font-size:$development-item-title-font-s;  
+  font-weight: $development-item-font-w;
+}
+
+.development-item-desc{
+  height: $development-item-desc-h;
+  font-family: 'Lato',sans-serif;
+  font-size:$development-item-desc-font-s;  
+  font-weight: $development-item-desc-font-w;
+}
+
+@media screen and (max-width: 850px){
+  .development-container{
+    height: $development-container-m-h;
+  }
+  .development-header{
+    top: $development-header-m-top;
+    height: auto;
+
+  }
+  .development-items{
+    height: $developmnt-items-m-h;
+    margin-top:$development-items-m-mt;
+    flex-direction: column! important;
+  }
+  .development-item-text-wrap{
+    height: $development-item-text-wrap-m-h;
+  }
+}
