@@ -341,7 +341,7 @@
   }
 }
 
-/* = = = = = = = = DESIGN = = = = = = = = */
+/* = = = = = =  = = = = DESIGN = = = = = = = = = = */
 .development-container {
   height: 80vh;
   width: 100%;
@@ -474,7 +474,7 @@
   }
 }
 
-/* = = = = = = = = DESIGN = = = = = = = = */
+/* = = = = = =  = = = = DESIGN = = = = = = = = = = */
 .design-container {
   height: 80vh;
   width: 100%;
@@ -565,6 +565,86 @@
   }
   .design-icon {
     font-size: 25x;
+  }
+}
+
+.consultancy-container {
+  height: 80vh;
+  width: 100%;
+}
+
+.consultancy-header {
+  top: 10vh;
+  height: 15%;
+}
+
+.consultancy-title {
+  font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(20px + 1.2vw);
+}
+
+.consultancy-subtitle {
+  font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(14px + .3vw);
+}
+
+.consultancy-items {
+  margin-top: 10vh;
+  width: 80%;
+  height: 50%;
+}
+
+.consultancy-img-wrap {
+  height: 80%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.consultancy-img {
+  height: 250px;
+  width: 200px;
+}
+
+.consultancy-text-wrap {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 80%;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.consultancy-text-wrap div {
+  font-size: calc(12px + 0.5vw);
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 850px) {
+  .consultancy-container {
+    height: 100vh;
+  }
+  .consultancy-header {
+    top: 5vh;
+  }
+  .consultancy-items {
+    width: 95%;
+    margin-top: 10vh;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    height: 65%;
+  }
+  .consultancy-img-wrap {
+    height: 25%;
+  }
+  .consultancy-text-wrap {
+    height: 100%;
   }
 }
 
