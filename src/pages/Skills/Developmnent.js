@@ -62,8 +62,8 @@ const Development = () => {
             <div className="container-fluid d-flex align-items-center justify-content-center development-item-title">
               Software
             </div>
-            <div className="container-fluid w-100 d-flex text-center align-items-start justify-content-center development-item-desc">
-              We made Microsoft Word. Bill Gates then stole it from one of our developers on a drunken night out.
+            <div className="container-fluid d-flex text-center  align-items-start justify-content-center development-item-desc">
+              We made Microsoft Word. Bill Gates then stole it from one of our developers on a drunken night out. Next time.
             </div>
           </div>
         </div>

@@ -88,3 +88,52 @@
     height: $development-item-text-wrap-m-h;
   }
 }
+
+@media screen and (max-width: 850px) and (orientation:landscape){
+  .development-container{
+    height: 130vh;
+  }
+  .development-header{
+    margin-top:10vh;
+  }
+  .development-items{
+    width: 95%;
+    margin-top:30vh;
+    flex-direction: row !important;
+    height: 80%;
+  }
+  .development-item-img-wrap{
+    
+    height: 40%;
+  }
+  .development-computer-icon{
+    height: 70%;
+    width: 60%;
+  }
+  .development-phone-icon{
+    height: 70%;
+    width: 60%;
+  }
+  .development-laptop-icon{
+    height:110%;
+    width: 80%;
+  }
+  .development-item-desc{
+    
+    width: 130%;
+    margin-left:-15%;
+  }
+  .development-item{
+    
+  }
+  .development-item-text-wrap{
+    
+  }
+  .development-item-title{
+    
+  }
+  .development-item-text-wrap{
+    height: 35%;
+    
+  }
+}
