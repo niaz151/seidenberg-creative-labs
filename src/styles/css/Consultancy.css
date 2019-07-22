@@ -63,7 +63,7 @@
   }
   .consultancy-items {
     width: 95%;
-    margin-top: 10vh;
+    margin-top: 20vh;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
@@ -75,6 +75,7 @@
   }
   .consultancy-text-wrap {
     height: 100%;
+    margin-top: 5vh;
   }
 }
 /*# sourceMappingURL=Consultancy.css.map */
