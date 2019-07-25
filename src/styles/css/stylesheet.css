@@ -832,11 +832,122 @@
   .team-header-img-div {
     height: 200px;
     width: 250px;
-    margin-top: 10vh;
   }
   .team-header-text-div {
     width: 80%;
   }
+}
+
+.current-members-container {
+  height: 220vh;
+  width: 100%;
+  background-color: #4EB2CF;
+}
+
+.current-members-header {
+  top: 5vh;
+  height: 10%;
+}
+
+.current-members-title {
+  color: white;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  font-size: calc(20px + 1.2vw);
+}
+
+.current-members-subtitle {
+  color: white;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  font-size: calc(14px + .3vw);
+}
+
+.current-members-hex-container {
+  margin-top: 15vh;
+  height: auto;
+  width: 90%;
+}
+
+.current-members-hex-container-two {
+  margin-top: 10vh;
+  height: auto;
+  width: 90%;
+}
+
+.hex-item {
+  padding: 0;
+  width: 28%;
+}
+
+.hexagon-wrapper {
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.hexagon {
+  background-color: white;
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+}
+
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  -webkit-transform: rotateZ(60deg);
+          transform: rotateZ(60deg);
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  -webkit-transform: rotateZ(-60deg);
+          transform: rotateZ(-60deg);
+}
+
+.current-members-text-wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+.current-members-text-header-wrapper {
+  width: 100%;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.current-members-text-header-title {
+  font-size: calc(14px + .5vw);
+}
+
+.current-members-text-header-subtitle {
+  font-size: calc(14px + .2vw);
+}
+
+.current-members-text-blurb-wrapper {
+  width: 100%;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-top: 1vh;
+  font-size: calc(14px + .1vw);
 }
 
 html {
