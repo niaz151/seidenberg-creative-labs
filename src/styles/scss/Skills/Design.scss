@@ -1,144 +1,99 @@
+@import '../_variables.scss';
+@import './variables';
+
 .design-container{
-  height: 90vh;
-  width: 100vw;
-  background-color: #4EB2CF;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: $design-container-h;
+  width: $design-container-w;
+  background-color: $design-container-bg-color;
+  margin-top: $header-h;
 }
 
-.design-heading{
-  height:15%;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.design-header{
+  top:$design-header-top;
+  height: $design-header-h;
 }
 
 .design-title{
-  font-family: 'Lato',sans-serif;
-  font-size:calc(20px + 2.2vw);
-  color:white;
-  font-weight:300;
+  color:$design-title-color;
+  font-weight: $design-title-font-w;
+  font-family:'Lato',sans-serif;
+  font-size: $design-title-font-s;
 }
 
 .design-subtitle{
-  font-family: 'Lato',sans-serif;
-  font-size:calc(12px + 0.5vw);
-  color:white;
-  font-weight:300;
+  color:$design-subtitle-color;
+  font-weight: $design-subtitle-font-w;
+  font-family:'Lato',sans-serif;
+  font-size:$design-subtitle-font-s;
 }
 
 .design-items{
-  height:55%;
-  width:90%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
+  margin-top:$design-items-mt;
+  width: $design-items-w;
   flex-wrap: wrap;
+  height:$design-items-h;
 }
 
 .design-item{
-  height: 40%;
-  width:33%;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  
+  height: auto;
+  flex:1;
 }
 
-.design-icon-header-wrap{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.design-icon-wrap{
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-  width: 80px;
-  border-radius: 40px;
-  text-align: center;
+.design-item-icon{
+  height: $design-item-icon-h;
+  width: $design-item-icon-w;
+  background-color: $design-item-bg-color;
+  border-radius: $design-item-bg-radius;
 }
 
 .design-icon{
-  font-size:30px;
-  color:#4EB2CF;
+  font-size:$design-icon-font-s;
+  color:$design-icon-color;
 }
 
-.design-icon-header{
+.design-item-text{
+  margin-top:$design-item-text-mt;
+  height: auto;
   font-family: 'Lato',sans-serif;
-  font-size:calc(12px + 0.8vw);
-  color:white;
-  font-weight: 300;
-  margin-top:1vh;
+  color:$design-item-text-color;
+  font-size:$design-item-text-font-s;
+  font-weight:$design-item-text-font-w;
 }
 
-.design-icon-desc{
-  height:auto;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Lato',sans-serif;
-  font-size:calc(12px + 0.2vw);
-  color:white;
-  font-weight:300;
-}
-
-
-@media(max-width:900px){
+@media screen and (max-width: 850px){
   .design-container{
-    height: 140vh;
+    height:$design-container-m-h;
   }
-  .design-heading{
-    height:10%;
-    justify-content: center;
+  .design-header{
+    top:$design-header-m-top;
   }
   .design-items{
-    height:80%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    height: $design-items-m-h;
   }
-  .design-item{
-    flex:1;
+  .design-item-text{
+    margin-top:$design-item-text-m-mt;
   }
-.design-icon-header{
-  margin-top:2vh;
-}
+  .design-item-icon{
+    height: 70px;
+    width:70px;
+  }
+  .design-icon{
+    font-size:25px;
+  }
 }
 
-
-@media only screen and (max-device-width: 900px) and (orientation: landscape){
-  .design-container{
-    height: 150vh;
-  }
-  .design-heading{
-    height:15%;
+@media screen and (max-width: 850px) and (orientation:landscape){
+  .design-header{
+    top:$design-header-top;
   }
   .design-items{
-  
-    width: 95%;
-    height: 60%;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-items: flex-end;
+    margin-top:$design-items-ml-mt;
   }
-  .design-item{
-  
-    width: 33%;
-    flex:none;
+  .design-item-icon{
+    height:$design-item-icon-ml-h;
+    width: $design-item-icon-ml-w;
+  }
+  .design-icon{
+    font-size: $design-icon-font-ml-s;
   }
 }

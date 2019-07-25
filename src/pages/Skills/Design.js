@@ -1,83 +1,74 @@
-import React,{Fragment} from 'react';
+import React from 'react';
 
 const Design = () => {
-  return(
-    <div className="design-container">
-      <div className="design-heading">
-        <div className="design-title">
+  return (
+    <div className="container-fluid position-relative d-flex flex-column align-items-center justify-content-center design-container">
+
+      {/* = = = = = = = = = = = HEADER = = = = = = = = = = =  */}
+
+      <div className="container-fluid position-absolute d-flex flex-column align-items-center justify-content-center design-header">
+        <div className="container-fluid text-center design-title">
           Design
-        </div>
-        <div className='design-subtitle'>
-          Students with a hunger for innovation
-        </div>
+          </div>
+        <div className="container-fluid text-center design-subtitle">
+          Students with a hunger for innovation.
+          </div>
       </div>
-      <div className='design-items'>
-        <div className="design-item">
-          <div className="design-icon-header-wrap">
-            <div className="design-icon-wrap">
+
+
+      {/* = = = = = = = = = = = ITEM CONTAINER = = = = = = = = = = =  */}
+      <div className="container-fluid d-flex flex-row align-items-center justify-content-start design-items">
+
+        {/* = = = = =  DESIGN ITEM = = = = =  */}
+        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
             <i class="fas fa-user-friends design-icon"></i>
-            </div>
-            <div className="design-icon-header">
-              Empathize
-            </div>  
           </div>
-          <div className="design-icon-desc">
-           
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
+            Emphathize
           </div>
         </div>
-        <div className="design-item">
-          <div className="design-icon-header-wrap">
-            <div className="design-icon-wrap">
-              <i class="fas fa-project-diagram design-icon"></i>
-            </div>
-            <div className="design-icon-header">
-              Define
-            </div>  
+
+        {/* = = = = =  DESIGN ITEM = = = = =  */}
+        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
+            <i class="fas fa-project-diagram design-icon"></i>
           </div>
-          <div className="design-icon-desc">
-           
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
+            Define
           </div>
         </div>
-        <div className="design-item">
-          <div className="design-icon-header-wrap">
-            <div className="design-icon-wrap">
-              <i class="far fa-lightbulb design-icon"></i>
-            </div>
-            <div className="design-icon-header">
-              Ideate
-            </div>  
+
+        {/* = = = = =  DESIGN ITEM = = = = =  */}
+        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
+            <i class="far fa-lightbulb design-icon"></i>
           </div>
-          <div className="design-icon-desc">
-           
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
+            Ideate
           </div>
         </div>
-        <div className="design-item">
-          <div className="design-icon-header-wrap">
-            <div className="design-icon-wrap">
-              <i class="fas fa-code design-icon"></i>
-            </div>
-            <div className="design-icon-header">
-              Prototype
-            </div>  
+        {/* = = = = =  DESIGN ITEM = = = = =  */}
+        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
+            <i class="fas fa-code design-icon"></i>
           </div>
-          <div className="design-icon-desc">
-           
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
+            Prototype
           </div>
         </div>
-        <div className="design-item">
-          <div className="design-icon-header-wrap">
-            <div className="design-icon-wrap">
-              <i class="fas fa-check design-icon"></i>
-            </div>
-            <div className="design-icon-header">
-              Test
-            </div>  
+
+        {/* = = = = =  DESIGN ITEM = = = = =  */}
+        <div className="container-fluid d-flex flex-column align-items-center justify-content-around design-item">
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
+            <i class="fas fa-check design-icon"></i>
           </div>
-          <div className="design-icon-desc">
-           
+          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
+            Test
           </div>
         </div>
       </div>
+
     </div>
   )
 }

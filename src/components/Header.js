@@ -41,7 +41,7 @@ class Header extends React.Component{
                 </Link>
               </li>
               <li className="nav-item pr-3">
-                <Link to="/projects">
+                <Link to="/contact">
                   <a className="nav-link text-light header-link" href="#"> Contact <span className="sr-only">(current)</span></a>
                 </Link>
               </li>

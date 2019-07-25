@@ -1,206 +1,81 @@
 .consultancy-container {
   height: 80vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.consultancy-heading {
+.consultancy-header {
+  top: 10vh;
   height: 15%;
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .consultancy-title {
-  font-family: 'Lato',sans-serif;
-  font-size: calc(20px + 2.2vw);
-  color: black;
   font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(20px + 1.2vw);
 }
 
 .consultancy-subtitle {
-  font-family: 'Lato',sans-serif;
-  font-size: calc(12px + 0.5vw);
-  color: black;
   font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(14px + .3vw);
 }
 
 .consultancy-items {
-  margin-top: 5vh;
-  height: 45%;
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-top: 10vh;
+  width: 80%;
+  height: 50%;
 }
 
 .consultancy-img-wrap {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 80%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .consultancy-img {
-  height: 350px;
-  width: 300px;
+  height: 200px;
+  width: 180px;
 }
 
 .consultancy-text-wrap {
-  width: 65%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  height: 80%;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 
-.consultancy-text-p1 {
-  width: 100%;
+.consultancy-text-wrap div {
+  font-size: calc(12px + 0.5vw);
   font-family: 'Lato',sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: calc(12px + 0.6vw);
   font-weight: 300;
 }
 
-.consultancy-text-p2 {
-  width: 100%;
-  font-family: 'Lato',sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: calc(12px + 0.6vw);
-  font-weight: 300;
-}
-
-@media (max-width: 900px) {
+@media screen and (max-width: 850px) {
   .consultancy-container {
-    height: 110vh;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    height: 100vh;
   }
-  .consultancy-heading {
-    height: 10%;
-    width: 90%;
+  .consultancy-header {
+    top: 5vh;
   }
   .consultancy-items {
-    height: 70%;
-    justify-self: flex-end;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    flex-direction: column;
-  }
-  .consultancy-img-wrap {
-    height: 30%;
-    width: 100%;
-  }
-  .consultancy-img {
-    height: 250px;
-    width: 200px;
-  }
-  .consultancy-text-wrap {
-    height: 70%;
-    width: 100%;
-  }
-  .consultancy-text-wrap div {
-    width: 85%;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-device-width: 900px) and (orientation: landscape) {
-  .consultancy-container {
-    height: 120vh;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .consultancy-heading {
-    margin-top: 15vh;
-  }
-  .consultancy-items {
+    width: 95%;
+    margin-top: 20vh;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
     height: 65%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
   .consultancy-img-wrap {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    height: 25%;
   }
   .consultancy-text-wrap {
-    -webkit-box-flex: 4;
-        -ms-flex: 4;
-            flex: 4;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .consultancy-text-wrap div {
-    width: 100%;
-    text-align: start;
+    height: 100%;
+    margin-top: 5vh;
   }
 }
 /*# sourceMappingURL=Consultancy.css.map */

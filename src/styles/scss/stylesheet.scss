@@ -3,9 +3,11 @@
 @import './Home/Hero.scss';
 @import './Home/StudentDevs.scss';
 @import './Home/OurSkills.scss';
-@import './Skills//Development.scss';
+@import './Skills/Development.scss';
 @import './Skills/Design.scss';
 @import './Skills/Consultancy.scss';
+@import './Contact/Contact.scss';
+@import './Team/TeamHeader.scss';
 
 html{
     padding: env(safe-area-inset);
@@ -13,5 +15,5 @@ html{
 
 body{
     overflow-x:hidden;
-}
+}   
 
