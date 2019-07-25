@@ -101,12 +101,13 @@ $design-item-text-font-w: 300;
 /* = = = = = =  = = = = CONSULTANCY = = = = = = = = = = */
 
 $consultancy-container-h: 80vh;
-$consultancy-conainer-m-h: 100vh;
+$consultancy-container-m-h: 100vh;
+$consultancy-container-ml-h: 130vh;
 $consultancy-container-w: 100%;
 
 $consultancy-header-top: 10vh;
-$consultancy-header--m-top: 5vh;
-$consultancy-height:15%;
+$consultancy-header-m-top: 5vh;
+$consultancy-header-h:15%;
 
 $consultancy-title-font-w: 300;
 $consultancy-title-font-family: 'Lato',sans-serif;
@@ -118,13 +119,14 @@ $consultancy-subtitle-font-s: calc(14px + 0.3vw);
 
 $consultancy-items-mt: 10vh;
 $consultancy-items-m-mt: 20vh; 
+$consultancy-items-ml-mt: 40vh;
 $consultancy-items-w: 80%;
-$consultancy-items-mw: 95%;
+$consultancy-items-m-w: 95%;
 $consultancy-items-h: 50%;
 $consultancy-items-m-h: 65%;
 
 $consultancy-img-wrap-h: 80%;
-$consultancy-img-wrap-h:25%;
+$consultancy-img-wrap-m-h:25%;
 
 $consultancy-img-h: 200px;
 $consultancy-img-w: 180px;

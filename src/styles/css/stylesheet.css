@@ -574,6 +574,8 @@
   }
 }
 
+/* = = = = = =  = = = = DESIGN = = = = = = = = = = */
+/* = = = = = =  = = = = CONSULTANCY = = = = = = = = = = */
 .consultancy-container {
   height: 80vh;
   width: 100%;
@@ -586,14 +588,14 @@
 
 .consultancy-title {
   font-weight: 300;
-  font-family: 'Lato',sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: calc(20px + 1.2vw);
 }
 
 .consultancy-subtitle {
   font-weight: 300;
-  font-family: 'Lato',sans-serif;
-  font-size: calc(14px + .3vw);
+  font-family: "Lato", sans-serif;
+  font-size: calc(14px + 0.3vw);
 }
 
 .consultancy-items {
@@ -625,8 +627,8 @@
 }
 
 .consultancy-text-wrap div {
-  font-size: calc(12px + 0.5vw);
-  font-family: 'Lato',sans-serif;
+  font-size: calc(12px+0.5vw);
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 

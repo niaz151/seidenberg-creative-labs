@@ -1,86 +1,85 @@
 @import '../variables';
+@import './variables';
 
 .consultancy-container{
-  height: 80vh;
-  width: 100%;
+  height: $consultancy-container-h;
+  width: $consultancy-container-w;
 }
 
 .consultancy-header{
-  top: 10vh;
-  height: 15%;
+  top: $consultancy-header-top;
+  height: $consultancy-header-h;
 }
 
 .consultancy-title{
-  font-weight: 300;
-  font-family: 'Lato',sans-serif;
-  font-size: calc(20px + 1.2vw);
+  font-weight: $consultancy-title-font-w;
+  font-family: $consultancy-title-font-family;
+  font-size: $consultancy-title-font-s;
 }
 
 .consultancy-subtitle{
-  font-weight: 300;
-  font-family: 'Lato',sans-serif;
-  font-size: calc(14px + .3vw);
+  font-weight: $consultancy-subtitle-font-w;
+  font-family: $consultancy-subtitle-font-family;
+  font-size: $consultancy-subtitle-font-s;
 }
 
 .consultancy-items{
-  margin-top:10vh;
-  width: 80%;
-  height: 50%;
-  
+  margin-top:$consultancy-items-mt;
+  width: $consultancy-items-w;
+  height: $consultancy-items-h;
 }
 
 .consultancy-img-wrap{
-  height: 80%;
+  height: $consultancy-img-wrap-h;
   flex:1;
 }
 
 .consultancy-img{
-  height: 200px;
-  width: 180px;
+  height: $consultancy-img-h;
+  width: $consultancy-img-w;
 }
 
 .consultancy-text-wrap{
   justify-content: space-evenly;
-  height: 80%;
+  height: $consultancy-text-wrap-h;
   flex:3;
 }
 .consultancy-text-wrap div{
-  font-size:calc(12px + 0.5vw);
-  
-  font-family:'Lato',sans-serif;
-  font-weight:300;
+  font-size: $consultancy-text-wrap-div-font-size;
+  font-family:$consultancy-text-wrap-div-font-family;
+  font-weight:$consultancy-text-wrap-div-font-w;
 }
 
 @media screen and (max-width: 850px){
   .consultancy-container{
-    height: 100vh;
+    height: $consultancy-container-m-h;
   }
   .consultancy-header{
-    top:5vh;
+    top:$consultancy-header-m-top;
   }
   .consultancy-items{
-    width: 95%;
-    margin-top:20vh;
+    width: $consultancy-items-m-w;
+    margin-top:$consultancy-items-m-mt;
     flex-direction:column !important;
-    height: 65%;
+    height: $consultancy-items-m-h;
   }
   .consultancy-img-wrap{
-    height: 25%;
+    height: $consultancy-img-wrap-m-h;
   }
   .consultancy-text-wrap{
-    height:100%;
-    margin-top:5vh;
+    height:$consultancy-text-wrap-m-h;
+    margin-top:$consultancy-text-wrap-m-mt;
   }
 }
 
 @media screen and (max-width: 850px) and (orientation: landscape){
   .consultancy-container{
-    height: 130vh;
+    height: $consultancy-container-ml-h;
   }
   .consultancy-header{
-    top:10vh;
+    top:$consultancy-header-top;
   }
   .consultancy-items{
-    margin-top:40vh;
+    margin-top: 40vh;
   }
 }
