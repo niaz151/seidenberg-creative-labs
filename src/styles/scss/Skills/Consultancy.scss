@@ -72,3 +72,15 @@
     margin-top:5vh;
   }
 }
+
+@media screen and (max-width: 850px) and (orientation: landscape){
+  .consultancy-container{
+    height: 130vh;
+  }
+  .consultancy-header{
+    top:10vh;
+  }
+  .consultancy-items{
+    margin-top:40vh;
+  }
+}

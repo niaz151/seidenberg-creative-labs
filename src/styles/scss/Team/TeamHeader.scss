@@ -1,2 +1,35 @@
 @import '../variables';
 
+.team-header-container{
+  margin-top:$header-h;
+  height: 85vh;
+  width: 80vw;
+}
+
+.team-header-img-div{
+  height: 350px;
+  width: 400px;
+}
+
+.team-header-img{
+  height: 100%;
+  width: 100%;
+}
+
+.team-header-text-div{
+  height: auto;
+  width: 55%;
+}
+
+.team-header-top-text{
+  font-weight:300;
+  font-family: 'Lato',sans-serif;
+  font-size:  calc(20px + 1.2vw);
+}
+
+.team-header-bottom-text{
+  font-weight:300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(14px + .5vw);
+  margin-top:2vh;
+}

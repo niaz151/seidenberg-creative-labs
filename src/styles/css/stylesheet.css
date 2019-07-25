@@ -339,6 +339,7 @@
 }
 
 /* = = = = = =  = = = = DESIGN = = = = = = = = = = */
+/* = = = = = =  = = = = CONSULTANCY = = = = = = = = = = */
 .development-container {
   height: 80vh;
   width: 100%;
@@ -472,6 +473,7 @@
 }
 
 /* = = = = = =  = = = = DESIGN = = = = = = = = = = */
+/* = = = = = =  = = = = CONSULTANCY = = = = = = = = = = */
 .design-container {
   height: 80vh;
   width: 100%;
@@ -653,6 +655,18 @@
   }
 }
 
+@media screen and (max-width: 850px) and (orientation: landscape) {
+  .consultancy-container {
+    height: 130vh;
+  }
+  .consultancy-header {
+    top: 10vh;
+  }
+  .consultancy-items {
+    margin-top: 40vh;
+  }
+}
+
 .contact-container {
   font-weight: 300;
   height: 90vh;
@@ -747,6 +761,40 @@
   .contact-text-wrap {
     font-size: calc(14px + 0.2vw);
   }
+}
+
+.team-header-container {
+  margin-top: 10vh;
+  height: 85vh;
+  width: 80vw;
+}
+
+.team-header-img-div {
+  height: 350px;
+  width: 400px;
+}
+
+.team-header-img {
+  height: 100%;
+  width: 100%;
+}
+
+.team-header-text-div {
+  height: auto;
+  width: 55%;
+}
+
+.team-header-top-text {
+  font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(20px + 1.2vw);
+}
+
+.team-header-bottom-text {
+  font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: calc(14px + .5vw);
+  margin-top: 2vh;
 }
 
 html {
