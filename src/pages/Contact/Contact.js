@@ -26,7 +26,7 @@ const Contact = () => {
               <i class="fas fa-envelope contact-img"></i>
             </div>
             <div className="container-fluid d-flex align-items-center justify-content-center contact-text-wrap">
-              scl@gmail.com
+              seidcreativelabs@gmail.com
             </div>
           </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
              <i class="fas fa-mobile contact-img"></i>
             </div>
             <div className="container-fluid d-flex align-items-center justify-content-center contact-text-wrap">
-              0-123-456-7890
+              347-585-7827 
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
               <i class="fas fa-map-marker-alt contact-img"></i>
             </div>
             <div className="container-fluid d-flex align-items-center justify-content-center contact-text-wrap">
-              163 Williams St 2nd Floor
+              163 Williams St. 2nd Floor
             </div>
           </div>
         

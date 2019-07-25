@@ -536,7 +536,7 @@
 
 @media screen and (max-width: 850px) {
   .design-container {
-    height: 90vh;
+    height: 110vh;
   }
   .design-header {
     top: 5vh;
@@ -546,6 +546,13 @@
   }
   .design-item-text {
     margin-top: 2vh;
+  }
+  .design-item-icon {
+    height: 70px;
+    width: 70px;
+  }
+  .design-icon {
+    font-size: 25px;
   }
 }
 
@@ -601,8 +608,8 @@
 }
 
 .consultancy-img {
-  height: 250px;
-  width: 200px;
+  height: 200px;
+  width: 180px;
 }
 
 .consultancy-text-wrap {
