@@ -1,4 +1,5 @@
 import React from 'react';
+import HexagonIcon from '../../components/HexagonIcon';
 
 const CurrentMembers = () => {
   return (
@@ -15,194 +16,21 @@ const CurrentMembers = () => {
 
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
       <div className="container-fluid d-flex flex-row align-items-center justify-content-around current-members-hex-container">
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
       </div>
-
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
       <div className="container-fluid d-flex flex-row align-items-center justify-content-around current-members-hex-container-two">
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
       </div>
-
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
       <div className="container-fluid d-flex flex-row align-items-center justify-content-around current-members-hex-container">
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
-
-        {/* = = = = = = = = = HEX ITEM  = = = = = = = = =*/}
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
-          <div class="hexagon-wrapper">
-            <div id="color_one" class="hexagon"></div>
-          </div>
-          <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-title">
-                John Doe
-              </div>
-              <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-header-subtitle">
-                Developer
-              </div>
-            </div>
-            <div class="container-fluid d-flex align-items-center justify-content-center current-members-text-blurb-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
-        </div>
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
+        <HexagonIcon name="Jackson Byrnes" role="Designer" desc="lorem ipsum delorum" />
       </div>
 
     </div>

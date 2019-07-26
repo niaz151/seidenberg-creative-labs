@@ -1,4 +1,5 @@
 import React from 'react';
+import OurSkillsIcon from '../../components/OurSkillsIcon';
 
 const OurSkills = () => {
     
@@ -14,50 +15,25 @@ const OurSkills = () => {
          {/* = = = = = = = = = =  ICON CONTAINER = = = = = = = = = =  */ }
 
         <div className="container-fluid w-75 d-flex align-items-center justify-content-center our-skills-icon-container">
-
-           {/* = = = = = = = = = =  ICON = = = = = = = = = =  */ }
-
-          <div className="container-fluid  d-flex align-items-center justify-content-center our-skills-icon">
-            <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-img">
-              <i className="fa fa-cogs fa-2x icon"></i>
-            </div>
-            <div>
-              <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-header">
-                Development
-              </div>
-              <div className="container-fluid d-flex align-items-center justify-content-center text-center our-skills-icon-desc">
-                Working side by side with clients, we create products which bring their visions to life. Anything is possible.
-              </div>
-            </div>
-          </div>
-
-           {/* = = = = = = = = = =  ICON = = = = = = = = = =  */ }
-
-          <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon">
-            <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-img">
-              <i className="fas fa-chart-bar fa-2x icon"></i>
-            </div>
-            <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-header">
-                Design
-            </div>
-            <div className="container-fluid d-flex align-items-center justify-content-center text-center our-skills-icon-desc">
-              Working side by side with clients, we create products which bring their visions to life. Anything is possible.
-            </div>
-          </div>
-
-          {/* = = = = = = = = = =  ICON= = = = = = = = = =  */ }
           
-          <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon">
-            <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-img">
-              <i className="far fa-lightbulb fa-2x icon"></i>
-            </div>
-            <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-header">
-                Consultancy
-            </div>
-            <div className="container-fluid d-flex align-items-center justify-content-center  text-center our-skills-icon-desc">
-              Working side by side with clients, we create products which bring their visions to life. Anything is possible.
-            </div>
-          </div>
+           <OurSkillsIcon 
+              class="fa fa-cogs fa-2x icon" 
+              name="Development" 
+              desc="Working side by side with clients, we create products which bring their visions to life. Anything is possible."
+            />
+
+           <OurSkillsIcon 
+              class="fa fa-cogs fa-2x icon" 
+              name="Development" 
+              desc="Working side by side with clients, we create products which bring their visions to life. Anything is possible."
+            />
+          
+           <OurSkillsIcon 
+              class="fa fa-cogs fa-2x icon" 
+              name="Development" 
+              desc="Working side by side with clients, we create products which bring their visions to life. Anything is possible."
+            />
+            
         </div>
 
          {/* = = = = = = = = = = BTN CONTAINER = = = = = = = = = =  */ }

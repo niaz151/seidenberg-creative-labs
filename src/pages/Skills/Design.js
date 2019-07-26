@@ -1,4 +1,5 @@
 import React from 'react';
+import DesignIcon from '../../components/DesignIcon';
 
 const Design = () => {
   return (
@@ -15,60 +16,14 @@ const Design = () => {
           </div>
       </div>
 
-
       {/* = = = = = = = = = = = ITEM CONTAINER = = = = = = = = = = =  */}
       <div className="container-fluid d-flex flex-row align-items-center justify-content-start design-items">
-
-        {/* = = = = =  DESIGN ITEM = = = = =  */}
-        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
-            <i class="fas fa-user-friends design-icon"></i>
-          </div>
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
-            Emphathize
-          </div>
-        </div>
-
-        {/* = = = = =  DESIGN ITEM = = = = =  */}
-        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
-            <i class="fas fa-project-diagram design-icon"></i>
-          </div>
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
-            Define
-          </div>
-        </div>
-
-        {/* = = = = =  DESIGN ITEM = = = = =  */}
-        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
-            <i class="far fa-lightbulb design-icon"></i>
-          </div>
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
-            Ideate
-          </div>
-        </div>
-        {/* = = = = =  DESIGN ITEM = = = = =  */}
-        <div className="container-fluid d-flex flex-column align-items-center justify-content-center design-item">
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
-            <i class="fas fa-code design-icon"></i>
-          </div>
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
-            Prototype
-          </div>
-        </div>
-
-        {/* = = = = =  DESIGN ITEM = = = = =  */}
-        <div className="container-fluid d-flex flex-column align-items-center justify-content-around design-item">
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-icon">
-            <i class="fas fa-check design-icon"></i>
-          </div>
-          <div className="container-fluid d-flex align-items-center justify-content-center design-item-text">
-            Test
-          </div>
-        </div>
+        <DesignIcon class="fas fa-user-friends design-icon" name="Empathize" />
+        <DesignIcon class="fas fa-project-diagram design-icon" name="Define" />
+        <DesignIcon class="far fa-lightbulb design-icon" name="Ideate" />
+        <DesignIcon class="fas fa-code design-icon" name="Prototype" />
+        <DesignIcon class="fas fa-check design-icon" name="Test" />
       </div>
-
     </div>
   )
 }
