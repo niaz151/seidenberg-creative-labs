@@ -176,7 +176,7 @@
   .stdev-img {
     height: 350px;
     width: 300px;
-    margin-top: -12vh;
+    margin-top: 0vh;
   }
   .stdev-alert {
     margin-top: -4vh;
@@ -273,6 +273,7 @@
 }
 
 .our-skills-icon-desc {
+  padding: 0;
   font-family: 'Lato',sans-serif;
   font-size: calc(12px + 0.5vw);
   font-weight: 300;
@@ -708,7 +709,7 @@
 }
 
 .contact-img {
-  font-size: calc(30px + 2vw);
+  font-size: calc(30px + 4vw);
   color: #4EB2CF;
 }
 
@@ -839,7 +840,7 @@
 }
 
 .current-members-container {
-  height: 220vh;
+  height: 240vh;
   width: 100%;
   background-color: #4EB2CF;
 }
