@@ -16,24 +16,24 @@ const CurrentMembers = () => {
       </div>
 
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
-      <div className="container-fluid d-flex flex-row align-items-center justify-content-around current-members-hex-container">
-        <HexagonIcon name="Allan Krasner" role="Developer.html" desc=""/>
-        <HexagonIcon name="Jackson Byrnes" role="Designer.psd" desc="lorem ipsum delorum" />
-        <HexagonIcon name="Niaz Ahmed" role="Developer.js" desc="Graduate student specialzing in React, React-Native, and Node.JS. He's changing the world one syntax error at a time." />
+      <div className="container-fluid d-flex flex-row align-items-start justify-content-around current-members-hex-container">
+        <HexagonIcon name="Allan Krasner" role="Project Manager" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," />
+        <HexagonIcon name="Jackson Byrnes" role="Team Lead / Designer" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis " />
+        <HexagonIcon name="Niaz Ahmed" role="Team Lead / Full Stack Developer" desc="Fullstack developer specialzing in React, React-Native, and Node. He's changing the world one syntax error at a time." />
       </div>
 
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
-      <div className="container-fluid d-flex flex-row align-items-center justify-content-around current-members-hex-container-two">
-        <HexagonIcon name="Anna Marinina" role="Designer.js" desc="lorem ipsum delorum" />
-        <HexagonIcon name="Guillermo Schneider" role="Designer" desc="lorem ipsum delorum" />
-        <HexagonIcon name="Daniel Berekdar" role="Designer.unity" desc="lorem ipsum delorum" />
+      <div className="container-fluid d-flex flex-row align-items-start justify-content-around current-members-hex-container-two">
+        <HexagonIcon name="Anna Marinina" role="Front End Developer" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur " />
+        <HexagonIcon name="Guillermo Schneider" role="Designer" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa." />
+        <HexagonIcon name="Daniel Berekdar" role="Front End Developer/Network Engineer" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. " />
       </div>
 
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
-      <div className="container-fluid d-flex flex-row align-items-center justify-content-around current-members-hex-container">
-        <HexagonIcon name="Sammy Geller" role="Developer.js" desc="From the mean streets of the Upper East Side, a computer science major with minors in math and economics. Yes, he wears glasses." />
-        <HexagonIcon name="Sven Nussgruber" role="Developer.js" desc="Fullstack developer focusing on ReactJS, Django and where to find the best breakfast sandwich in NYC." />
-        <HexagonIcon name="Chinmay Joshi" role="Designer" desc="lorem ipsum delorum" />
+      <div className="container-fluid d-flex flex-row align-items-start justify-content-around current-members-hex-container">
+        <HexagonIcon name="Sammy Geller" role="Developer" desc="From the mean streets of the Upper East Side, a computer science major with minors in math and economics. Yes, he wears glasses." />
+        <HexagonIcon name="Sven Nussgruber" role="Developer" desc="Fullstack developer focusing on ReactJS, Django and where to find the best breakfast sandwich in NYC." />
+        <HexagonIcon name="Chinmay Joshi" role="Designer" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. " />
       </div>
  
     </div>
