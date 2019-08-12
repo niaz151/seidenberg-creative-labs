@@ -12,7 +12,7 @@ const OurSkills = () => {
         </div>
 
          {/* = = = = = = = = = =  ICON CONTAINER = = = = = = = = = =  */ }
-        <div className="container-fluid w-75 d-flex align-items-center justify-content-center our-skills-icon-container">
+        <div className="container-fluid d-flex align-items-center justify-content-center our-skills-icon-container">
            <OurSkillsIcon 
               class="fa fa-cogs fa-2x icon" 
               name="Development" 
@@ -28,7 +28,7 @@ const OurSkills = () => {
            <OurSkillsIcon 
               class="fa fa-cogs fa-2x icon" 
               name="Consultancy" 
-              desc="Starting a new product comes with many questions. We answer those questions. We help clients figure out feasibility, time, cost, etc."
+              desc="Starting a new product comes with many questions. We answer those questions. We help you figure out feasibility, time, cost, etc."
             />
         </div>
 

@@ -11,10 +11,8 @@ class Header extends React.Component{
       <div className="header-container fixed-top ">
         <nav className="navbar navbar-expand-lg navbar-light container header">
           <div>
-            <Link to="/"> 
-              <a href="#"> 
+            <Link to="/">  
                 <img src={require("../images/brain.png")} className="brain-img"  alt=""/>  
-              </a>
               <span className="navbar-brand text-light header-logo header-link" style={{marginLeft:"10px"}}> SCL </span>
             </Link>
           </div>
@@ -26,23 +24,23 @@ class Header extends React.Component{
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item pr-3">
-                <Link to="/team">
-                  <a className="nav-link text-light header-link" href="#">Team <span className="sr-only">(current)</span></a>
+                <Link to="/team" className="nav-link text-light header-link">
+                  Team <span className="sr-only">(current)</span>
                 </Link>
               </li>
               <li className="nav-item pr-3">
-                <Link to="/skills">
-                  <a className="nav-link text-light header-link" href="#"> Skills <span className="sr-only">(current)</span></a>
+                <Link to="/skills" className="nav-link text-light header-link" >
+                  Skills <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item pr-3" >
+                <Link to="/projects" className="nav-link text-light header-link">
+                  Projects <span className="sr-only">(current)</span>
                 </Link>
               </li>
               <li className="nav-item pr-3">
-                <Link to="/projects">
-                  <a className="nav-link text-light header-link" href="#"> Projects <span className="sr-only">(current)</span></a>
-                </Link>
-              </li>
-              <li className="nav-item pr-3">
-                <Link to="/contact">
-                  <a className="nav-link text-light header-link" href="#"> Contact <span className="sr-only">(current)</span></a>
+                <Link to="/contact" className="nav-link text-light header-link">
+                  Contact <span className="sr-only">(current)</span>
                 </Link>
               </li>
             </ul>

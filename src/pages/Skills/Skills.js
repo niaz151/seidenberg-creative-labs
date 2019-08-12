@@ -6,12 +6,12 @@ import Consultancy from './Consultancy';
 
 const Skills = () => {
   return(
-    <>
+    <Fragment>
       <Header/>
       <Development/>      
       <Design/>
       <Consultancy/>
-    </>
+    </Fragment>
   )
 }
 

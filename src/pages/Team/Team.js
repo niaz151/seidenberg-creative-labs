@@ -5,11 +5,11 @@ import CurrentMembers from './CurrentMembers';
 
 const Team = () => {
   return(
-    <>
+    <Fragment>
       <Header/>
       <TeamHeader/>
       <CurrentMembers/>
-    </>
+    </Fragment>
   )
 }
 

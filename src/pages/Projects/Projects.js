@@ -3,9 +3,9 @@ import Header from '../../components/Header';
 
 const Projects = () => {
   return(
-    <>
+    <Fragment>
       <Header/>
-    </>
+    </Fragment>
   )
 }
 

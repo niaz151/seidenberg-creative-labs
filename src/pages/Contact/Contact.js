@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 
 const Contact = () => {
   return(
-    <>
+    <Fragment>
       <Header/>
       <div className="container-fluid d-flex flex-column align-items-center justify-content-center contact-container">
         
@@ -52,7 +52,7 @@ const Contact = () => {
         
         </div>
       </div>
-    </>
+    </Fragment>
   )
 }
 
