@@ -6,7 +6,7 @@ const TeamHeader = () => {
       
       {/* = = = = = = = = = IMAGE DIV = = = = = = = = = */}
       <div className="container-fluid team-header-img-div">
-        <img src={require('../../images/team.svg')} className="team-header-img" />
+        <img src={require('../../images/team.png')} className="team-header-img" />
       </div>
 
       {/* = = = = = = = = = TEXT DIV = = = = = = = = = */}
