@@ -969,7 +969,7 @@
   .current-members-container {
     height: auto;
     width: 100%;
-    padding: 0;
+    padding-bottom: 6vh;
   }
   .current-members-header {
     top: -8vh;
