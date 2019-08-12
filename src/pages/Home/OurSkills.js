@@ -20,13 +20,13 @@ const OurSkills = () => {
             />
 
            <OurSkillsIcon 
-              class="fa fa-cogs fa-2x icon" 
+              class="far fa-chart-bar icon" 
               name="Research" 
               desc="Students and professors come together to make studies and help you learn what is happening in the technology field."
             />
           
            <OurSkillsIcon 
-              class="fa fa-cogs fa-2x icon" 
+              class="fas fa-lightbulb icon" 
               name="Consultancy" 
               desc="Starting a new product comes with many questions. We answer those questions. We help you figure out feasibility, time, cost, etc."
             />

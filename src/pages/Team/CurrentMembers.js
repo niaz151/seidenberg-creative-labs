@@ -18,7 +18,7 @@ const CurrentMembers = () => {
       {/* = = = = = = = = = = = = = = = HEX CONTAINER = = = = = = = = = = = = = = = */}
       <div className="container-fluid d-flex flex-row align-items-start justify-content-around current-members-hex-container">
         <HexagonIcon name="Allan Krasner" role="Project Manager" desc="Born and raised in Brooklyn, he specializes in front end and helps with back-end. He has a talent for talking to people. His secret weapon is his goatee." />
-        <HexagonIcon name="Jackson Byrnes" role="Team Lead / Designer" desc="Designer centered around UX and VR.  I get my best ideas at the food trucks or watching Love Island." />
+        <HexagonIcon name="Jackson Byrnes" role="Team Lead / Designer" desc="Designer centered around UX and VR.  I get my best ideas at food trucks or Stack Overflow. Love Island is the best reality show out there." />
         <HexagonIcon name="Niaz Ahmed" role="Team Lead / Full Stack Developer" desc="Fullstack developer specialzing in React, React-Native, and Node. He's changing the world one syntax error at a time and sending 2 am Slack notifications." />
       </div>
 
