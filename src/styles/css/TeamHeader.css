@@ -31,4 +31,26 @@
   font-size: calc(12px + 0.4vw);
   font-weight: 300;
 }
+
+@media screen and (max-width: 950px) {
+  .team-header-container {
+    height: 100vh;
+  }
+  .team-header-content-wrap {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+    margin-top: 15vh;
+  }
+  .team-header-img {
+    height: 100%;
+    width: 100%;
+  }
+  .team-header-text-wrap {
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=TeamHeader.css.map */
