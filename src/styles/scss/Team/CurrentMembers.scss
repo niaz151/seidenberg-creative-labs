@@ -23,6 +23,12 @@
   font-size: calc(14px + .3vw);
 }
 
+.team-member-portrait{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+}
+
 .hex-wrap{
   margin-top:12vh;
 }
@@ -58,6 +64,7 @@
   height: 100%;
   width: calc(100% * 0.57735);
   display: inline-block;
+
 }
 
 .hexagon:before {

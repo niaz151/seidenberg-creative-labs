@@ -4,7 +4,9 @@ const HexagonIcon = (props) => {
   return (
     <div className="container-fluid d-flex flex-column align-items-center justify-content-center hex-item">
       <div className="hexagon-wrapper">
-        <div id="color_one" className="hexagon"></div>
+        <div id="color_one" className="hexagon">
+          <img src={require('../images/sammy-g.svg')} className="team-member-portrait"/>
+        </div>
       </div>
       <div className="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-wrapper">
         <div className="container-fluid d-flex flex-column align-items-center justify-content-center current-members-text-header-wrapper">
